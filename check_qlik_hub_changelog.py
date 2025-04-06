@@ -16,41 +16,37 @@ async def main():
     async with async_playwright() as p:
         browser = await p.chromium.launch()
         page = await browser.new_page()
-        await page.goto(url)
-        await page.wait_for_selector("h2", state="attached")
+        await page.goto(url, timeout=60000)
+        await page.wait_for_selector("p", state="attached")
 
-        # === Locate latest changelog using <h2> + <p> with date ===
-        headings = await page.locator("h2").all()
-        title, description = None, None
+        # === Find the first paragraph starting with a date (e.g. 4/3/2025)
         date_pattern = r"^\d{1,2}/\d{1,2}/\d{4}"
+        paragraphs = await page.locator("p").all()
+        title, description = None, None
 
-        for h2 in headings:
-            h2_text = (await h2.text_content()).strip()
-            sibling = h2.locator("xpath=following-sibling::p[1]")
-
-            if await sibling.count() == 0:
-                continue
-
-            p_text = (await sibling.text_content()).strip()
-
-            if re.match(date_pattern, p_text):
-                title = h2_text
-                description = p_text
-                break
+        for para in paragraphs:
+            text = (await para.text_content()).strip()
+            if re.match(date_pattern, text):
+                # Go up and find the most recent <h2> above this <p>
+                h2 = para.locator("xpath=preceding-sibling::h2[1]")
+                if await h2.count() > 0:
+                    title = (await h2.text_content()).strip()
+                    description = text
+                    break
 
         if not title or not description:
             raise Exception("❌ Could not locate valid changelog entry.")
 
         latest_entry = f"{title} - {description}"
 
-        # === Compare to last seen ===
+        # === Load previous
         if os.path.exists(state_file):
             with open(state_file, "r") as f:
                 last_seen = f.read().strip()
         else:
             last_seen = None
 
-        # === Notify and update if new ===
+        # === Send if new
         if latest_entry != last_seen:
             message = {
                 "text": f"📢 *New Qlik Hub Update!*\n\n*{title}*\n🗓️ {description}\n🔗 {url}"
