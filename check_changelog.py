@@ -9,20 +9,23 @@ latest_entry = feed.entries[0]
 latest_title = latest_entry.title
 latest_link = latest_entry.link
 
-# Track last seen
+# State tracking
 state_file = "last_seen.txt"
 
-# Google Chat webhook URL
-chat_webhook = "https://chat.googleapis.com/v1/spaces/AAQAAIRi4fg/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=4wcZG-oNtawH9bjgpMlRHN9my7NjRB1dFNKdmnn7Nvc"
+# Webhook from environment variable (GitHub secret)
+chat_webhook = os.environ.get("GOOGLE_CHAT_WEBHOOK")
 
-# Check if already seen
+if not chat_webhook:
+    raise ValueError("Google Chat webhook URL not found in environment variables!")
+
+# Compare with last seen
 if os.path.exists(state_file):
     with open(state_file, "r") as f:
         last_seen = f.read().strip()
 else:
     last_seen = ""
 
-# If new changelog entry found
+# If new entry found
 if latest_title != last_seen:
     message = {
         "text": f"🚀 *New Qlik Changelog Entry!*\n*{latest_title}*\n🔗 {latest_link}"
@@ -30,11 +33,11 @@ if latest_title != last_seen:
 
     response = requests.post(chat_webhook, json=message)
     if response.status_code == 200:
-        print("✅ Message sent to Google Chat.")
+        print("✅ Sent to Google Chat.")
     else:
-        print(f"❌ Failed to send message. Status: {response.status_code}, Response: {response.text}")
+        print(f"❌ Chat message failed: {response.status_code}, {response.text}")
 
     with open(state_file, "w") as f:
         f.write(latest_title)
 else:
-    print("No new updates.")
+    print("No new update.")
