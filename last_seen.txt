@@ -1,1 +1,1 @@
-
+https://qlik.dev/changelog/130-context-menu-hide-options/
