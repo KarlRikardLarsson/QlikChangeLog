@@ -1,0 +1,26 @@
+name: Qlik Changelog Watcher
+
+on:
+  schedule:
+    - cron: '0 * * * *' # every hour
+  workflow_dispatch: # allow manual run
+
+jobs:
+  check-changelog:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install Dependencies
+      run: pip install feedparser
+
+    - name: Run Changelog Monitor
+      run: |
+        python check_changelog.py
