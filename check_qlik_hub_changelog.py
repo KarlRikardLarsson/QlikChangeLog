@@ -44,24 +44,23 @@ async def main():
 
         for p in paragraphs:
             p_text = (await p.text_content()).strip()
-           if re.match(date_pattern, p_text):
-    print(f"📅 Found dated paragraph: {p_text[:30]}")
-else:
-    print(f"🚫 Skipped (no match): {p_text[:30]}")
 
+            if re.match(date_pattern, p_text):
+                print(f"📅 Found dated paragraph: {p_text[:30]}")
+            else:
+                print(f"🚫 Skipped (no match): {p_text[:30]}")
+                continue
 
             post_date = parse_date(p_text)
             if not post_date:
                 continue
 
-            print(f"📅 Found dated paragraph: {p_text[:10]} → {post_date.date()}")
+            print(f"📅 Parsed date: {p_text[:10]} → {post_date.date()}")
 
-            # Filter by date
             if post_date < now - timedelta(days=days_to_look_back):
                 print(f"📭 Skipping old post: {p_text[:10]}")
                 continue
 
-            # Get the heading above it
             h2 = p.locator("xpath=preceding-sibling::h2[1]")
             if await h2.count() == 0:
                 continue
@@ -97,7 +96,6 @@ else:
             else:
                 print(f"❌ Failed to send: {res.status_code} - {res.text}")
 
-        # Save updated seen entries
         with open(state_file, "w") as f:
             for entry in seen_entries:
                 f.write(entry + "\n")
