@@ -8,30 +8,26 @@ state_file = "last_seen_hub.txt"
 chat_webhook = os.environ.get("GOOGLE_CHAT_WEBHOOK")
 
 if not chat_webhook:
-    raise ValueError("❌ GOOGLE_CHAT_WEBHOOK not set!")
+    raise ValueError("❌ GOOGLE_CHAT_WEBHOOK is not set!")
 
-# Fetch the HTML page
+# Fetch the page
 response = requests.get(url)
 if response.status_code != 200:
     raise Exception(f"❌ Failed to fetch changelog page: {response.status_code}")
 
-soup = BeautifulSoup(response.text, "html.parser")
+soup = BeautifulSoup(response.content, "html.parser")
 
-# Look for the first changelog block using class="content-paragraph"
-first_entry = soup.find("div", class_="content-paragraph")
-if not first_entry:
-    raise Exception("❌ Could not find changelog content block.")
-
-# Extract the title and text
-title = first_entry.find("h2")
-description = first_entry.find("p")
+# Find the first h2 and the next <p>
+title = soup.find("h2")
+description = title.find_next_sibling("p") if title else None
 
 if not title or not description:
-    raise Exception("❌ Missing <h2> or <p> in the changelog block.")
+    raise Exception("❌ Could not extract title and description.")
 
+# Clean and combine
 latest_entry = f"{title.get_text(strip=True)} - {description.get_text(strip=True)}"
 
-# Load previous value
+# Load last seen
 if os.path.exists(state_file):
     with open(state_file, "r") as f:
         last_seen = f.read().strip()
@@ -46,12 +42,11 @@ if latest_entry != last_seen:
 
     res = requests.post(chat_webhook, json=message)
     if res.status_code == 200:
-        print("✅ Notification sent to Google Chat.")
+        print("✅ Message sent to Google Chat.")
     else:
         print(f"❌ Failed to send: {res.status_code}, {res.text}")
 
-    # Save the latest entry
     with open(state_file, "w") as f:
         f.write(latest_entry)
 else:
-    print("✅ No new updates found.")
+    print("✅ No new update found.")
