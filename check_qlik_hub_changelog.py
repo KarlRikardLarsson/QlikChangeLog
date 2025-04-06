@@ -2,54 +2,56 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-# Config
+# Configuration
 url = "https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Introduction/saas-change-log.htm"
 state_file = "last_seen_hub.txt"
 chat_webhook = os.environ.get("GOOGLE_CHAT_WEBHOOK")
 
 if not chat_webhook:
-    raise ValueError("❌ GOOGLE_CHAT_WEBHOOK is not set!")
+    raise ValueError("❌ GOOGLE_CHAT_WEBHOOK not set!")
 
-# Fetch the page
+# Fetch the HTML page
 response = requests.get(url)
 if response.status_code != 200:
-    raise Exception(f"Failed to load changelog page: {response.status_code}")
+    raise Exception(f"❌ Failed to fetch changelog page: {response.status_code}")
 
-soup = BeautifulSoup(response.content, "html.parser")
+soup = BeautifulSoup(response.text, "html.parser")
 
-# Find the first update block
-first_block = soup.find("div", class_="cq-text")
-if not first_block:
-    raise Exception("❌ Could not find changelog entry.")
+# Look for the first changelog block using class="content-paragraph"
+first_entry = soup.find("div", class_="content-paragraph")
+if not first_entry:
+    raise Exception("❌ Could not find changelog content block.")
 
-# Extract title and content
-title = first_block.find("h2").get_text(strip=True)
-paragraph = first_block.find("p").get_text(separator=" ", strip=True)
+# Extract the title and text
+title = first_entry.find("h2")
+description = first_entry.find("p")
 
-# Compose the latest update string
-latest_entry = f"{title} - {paragraph}"
+if not title or not description:
+    raise Exception("❌ Missing <h2> or <p> in the changelog block.")
 
-# Load last seen
+latest_entry = f"{title.get_text(strip=True)} - {description.get_text(strip=True)}"
+
+# Load previous value
 if os.path.exists(state_file):
     with open(state_file, "r") as f:
         last_seen = f.read().strip()
 else:
     last_seen = None
 
-# Check and notify if it's new
+# Compare and notify
 if latest_entry != last_seen:
     message = {
-        "text": f"📢 *New Qlik SaaS Update!*\n\n*{title}*\n🗓️ {paragraph}\n🔗 {url}"
+        "text": f"📢 *New Qlik Hub Update!*\n\n*{title.get_text(strip=True)}*\n🗓️ {description.get_text(strip=True)}\n🔗 {url}"
     }
 
     res = requests.post(chat_webhook, json=message)
     if res.status_code == 200:
-        print(f"✅ Update sent to Google Chat: {title}")
+        print("✅ Notification sent to Google Chat.")
     else:
-        print(f"❌ Failed to send message: {res.status_code}, {res.text}")
+        print(f"❌ Failed to send: {res.status_code}, {res.text}")
 
+    # Save the latest entry
     with open(state_file, "w") as f:
         f.write(latest_entry)
 else:
-    print("✅ No new update found.")
-8
+    print("✅ No new updates found.")
