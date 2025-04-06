@@ -2,42 +2,50 @@ import feedparser
 import os
 import requests
 
-# RSS feed
 feed_url = "https://qlik.dev/rss.xml"
-feed = feedparser.parse(feed_url)
-latest_entry = feed.entries[0]
-latest_title = latest_entry.title
-latest_link = latest_entry.link
-
-# State tracking
 state_file = "last_seen.txt"
-
-# Webhook from environment variable (GitHub secret)
 chat_webhook = os.environ.get("GOOGLE_CHAT_WEBHOOK")
 
 if not chat_webhook:
-    raise ValueError("Google Chat webhook URL not found in environment variables!")
+    raise ValueError("Google Chat webhook URL not set!")
 
-# Compare with last seen
+# Parse the RSS feed
+feed = feedparser.parse(feed_url)
+entries = feed.entries
+
+# Load last seen GUID or link
 if os.path.exists(state_file):
     with open(state_file, "r") as f:
-        last_seen = f.read().strip()
+        last_seen_link = f.read().strip()
 else:
-    last_seen = ""
+    last_seen_link = None
 
-# If new entry found
-if latest_title != last_seen:
-    message = {
-        "text": f"🚀 *New Qlik Changelog Entry!*\n*{latest_title}*\n🔗 {latest_link}"
+# Collect new entries
+new_entries = []
+for entry in entries:
+    if entry.link == last_seen_link:
+        break
+    new_entries.append(entry)
+
+# Reverse to send in chronological order
+new_entries.reverse()
+
+# Send each new entry to Google Chat
+for entry in new_entries:
+    msg = {
+        "text": f"🚀 *New Qlik Changelog Entry!*\n*{entry.title}*\n🔗 {entry.link}"
     }
-
-    response = requests.post(chat_webhook, json=message)
-    if response.status_code == 200:
-        print("✅ Sent to Google Chat.")
+    res = requests.post(chat_webhook, json=msg)
+    if res.status_code == 200:
+        print(f"✅ Sent: {entry.title}")
     else:
-        print(f"❌ Chat message failed: {response.status_code}, {response.text}")
+        print(f"❌ Failed to send: {entry.title} – {res.status_code}, {res.text}")
 
+# Update last seen if there were new entries
+if new_entries:
+    latest_link = new_entries[-1].link
     with open(state_file, "w") as f:
-        f.write(latest_title)
+        f.write(latest_link)
+    print(f"📌 Updated last seen to: {latest_link}")
 else:
-    print("No new update.")
+    print("No new updates.")
