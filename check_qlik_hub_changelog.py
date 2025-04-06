@@ -29,7 +29,7 @@ async def main():
 
         # Optional wait in case content loads slowly
         await page.wait_for_timeout(3000)
-        await page.wait_for_selector("div.main-page-content", timeout=10000)
+        await page.wait_for_selector("h2", timeout=15000)
 
         now = datetime.now(timezone.utc)
         seen_entries = set()
