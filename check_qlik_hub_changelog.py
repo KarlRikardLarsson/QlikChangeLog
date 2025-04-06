@@ -41,18 +41,16 @@ async def main():
             print(f"🆕 New heading found (dry run): {title}")
             new_titles.append(title)
 
-            # ➤ Messaging is disabled for first run — dry run only
-            # message = {
-            #     "text": f"🆕 *New Qlik Hub Update:*\n{title}\n🔗 {url}"
-            # }
-            # res = requests.post(chat_webhook, json=message)
-            # if res.status_code == 200:
-            #     print(f"✅ Sent: {title}")
-            #     seen_titles.add(title)
-            # else:
-            #     print(f"❌ Failed to send: {res.status_code} - {res.text}")
+             message = {
+                "text": f"🆕 *New Qlik Hub Update:*\n{title}\n🔗 {url}"
+             }
+            res = requests.post(chat_webhook, json=message)
+            if res.status_code == 200:
+                print(f"✅ Sent: {title}")
+             seen_titles.add(title)
+            else:
+                print(f"❌ Failed to send: {res.status_code} - {res.text}")
 
-            # For now, just mark as seen:
             seen_titles.add(title)
 
         # Save all seen titles
