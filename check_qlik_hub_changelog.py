@@ -9,7 +9,12 @@ state_file = "last_seen_titles.txt"
 chat_webhook = os.environ.get("GOOGLE_CHAT_WEBHOOK")
 
 if not chat_webhook:
-    print("⚠️ GOOGLE_CHAT_WEBHOOK not set — running in dry mode (no messages will be sent)")
+    raise ValueError("❌ GOOGLE_CHAT_WEBHOOK not set!")
+
+# Optional: exclude generic headings
+ignore_keywords = [
+    "help", "resources", "company", "legal", "cookie", "did this page", "filters", "qlik cloud"
+]
 
 async def main():
     async with async_playwright() as p:
@@ -34,34 +39,40 @@ async def main():
 
         for h2 in headings:
             title = (await h2.text_content()).strip()
-
-            if not title or title in seen_titles:
+            if not title:
                 continue
 
-            print(f"🆕 New heading found (dry run): {title}")
+            # Ignore generic headings
+            if any(word in title.lower() for word in ignore_keywords):
+                continue
+
+            if title in seen_titles:
+                continue
+
+            print(f"🆕 New heading: {title}")
             new_titles.append(title)
 
-             message = {
+            # Send message to Google Chat
+            message = {
                 "text": f"🆕 *New Qlik Hub Update:*\n{title}\n🔗 {url}"
-             }
+            }
+
             res = requests.post(chat_webhook, json=message)
             if res.status_code == 200:
                 print(f"✅ Sent: {title}")
-             seen_titles.add(title)
+                seen_titles.add(title)
             else:
                 print(f"❌ Failed to send: {res.status_code} - {res.text}")
 
-            seen_titles.add(title)
-
-        # Save all seen titles
+        # Save updated seen titles
         with open(state_file, "w") as f:
-            for title in seen_titles:
+            for title in sorted(seen_titles):
                 f.write(title + "\n")
 
         if not new_titles:
             print("✅ No new updates found.")
         else:
-            print(f"📦 Dry run completed — {len(new_titles)} titles stored.")
+            print(f"📬 Done — {len(new_titles)} new title(s) sent.")
 
         await browser.close()
 
