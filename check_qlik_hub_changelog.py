@@ -16,7 +16,7 @@ async def main():
         await page.goto(url)
 
         # Wait for any visible H2s to load
-        await page.wait_for_selector("h2")
+        await page.wait_for_selector("h2", state="attached")
 
         # Get first H2 and its following paragraph
         title = await page.locator("h2").first.text_content()
