@@ -1,52 +1,53 @@
-import requests
-from bs4 import BeautifulSoup
+import asyncio
+from playwright.async_api import async_playwright
 import os
 
-# Configuration
 url = "https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Introduction/saas-change-log.htm"
 state_file = "last_seen_hub.txt"
 chat_webhook = os.environ.get("GOOGLE_CHAT_WEBHOOK")
 
 if not chat_webhook:
-    raise ValueError("❌ GOOGLE_CHAT_WEBHOOK is not set!")
+    raise ValueError("GOOGLE_CHAT_WEBHOOK is not set")
 
-# Fetch the page
-response = requests.get(url)
-if response.status_code != 200:
-    raise Exception(f"❌ Failed to fetch changelog page: {response.status_code}")
+async def main():
+    async with async_playwright() as p:
+        browser = await p.chromium.launch()
+        page = await browser.new_page()
+        await page.goto(url)
 
-soup = BeautifulSoup(response.content, "html.parser")
+        # Wait for any visible H2s to load
+        await page.wait_for_selector("h2")
 
-# Find the first h2 and the next <p>
-title = soup.find("h2")
-description = title.find_next_sibling("p") if title else None
+        # Get first H2 and its following paragraph
+        title = await page.locator("h2").first.text_content()
+        description = await page.locator("h2 + p").first.text_content()
 
-if not title or not description:
-    raise Exception("❌ Could not extract title and description.")
+        latest_entry = f"{title.strip()} - {description.strip()}"
 
-# Clean and combine
-latest_entry = f"{title.get_text(strip=True)} - {description.get_text(strip=True)}"
+        # Load last seen
+        if os.path.exists(state_file):
+            with open(state_file, "r") as f:
+                last_seen = f.read().strip()
+        else:
+            last_seen = None
 
-# Load last seen
-if os.path.exists(state_file):
-    with open(state_file, "r") as f:
-        last_seen = f.read().strip()
-else:
-    last_seen = None
+        if latest_entry != last_seen:
+            # Send message
+            import requests
+            message = {
+                "text": f"📢 *New Qlik Hub Update!*\n\n*{title.strip()}*\n🗓️ {description.strip()}\n🔗 {url}"
+            }
+            res = requests.post(chat_webhook, json=message)
+            if res.status_code == 200:
+                print("✅ Message sent.")
+            else:
+                print(f"❌ Failed to send: {res.status_code}, {res.text}")
 
-# Compare and notify
-if latest_entry != last_seen:
-    message = {
-        "text": f"📢 *New Qlik Hub Update!*\n\n*{title.get_text(strip=True)}*\n🗓️ {description.get_text(strip=True)}\n🔗 {url}"
-    }
+            with open(state_file, "w") as f:
+                f.write(latest_entry)
+        else:
+            print("✅ No new update found.")
 
-    res = requests.post(chat_webhook, json=message)
-    if res.status_code == 200:
-        print("✅ Message sent to Google Chat.")
-    else:
-        print(f"❌ Failed to send: {res.status_code}, {res.text}")
+        await browser.close()
 
-    with open(state_file, "w") as f:
-        f.write(latest_entry)
-else:
-    print("✅ No new update found.")
+asyncio.run(main())
