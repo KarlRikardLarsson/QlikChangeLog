@@ -14,7 +14,6 @@ days_to_look_back = 7
 if not chat_webhook:
     raise ValueError("❌ GOOGLE_CHAT_WEBHOOK not set!")
 
-# === Date parser: supports 4/3/2025 etc.
 def parse_date(text):
     match = re.match(r"^(\d{1,2})/(\d{1,2})/(\d{4})", text)
     if match:
@@ -27,7 +26,10 @@ async def main():
         browser = await p.chromium.launch()
         page = await browser.new_page()
         await page.goto(url, timeout=60000)
-        await page.wait_for_selector("p", state="attached")
+
+        # Optional wait in case content loads slowly
+        await page.wait_for_timeout(3000)
+        await page.wait_for_selector("div.main-page-content", timeout=10000)
 
         now = datetime.now(timezone.utc)
         seen_entries = set()
@@ -38,7 +40,10 @@ async def main():
 
         print(f"🧠 Loaded {len(seen_entries)} previously seen entries.")
 
-        paragraphs = await page.locator(".main-page-content p").all()
+        # Scope only to main changelog content
+        paragraphs = await page.locator("div.main-page-content p").all()
+        print(f"🔍 Scanned {len(paragraphs)} paragraphs.")
+
         date_pattern = r"\d{1,2}/\d{1,2}/\d{4}"
         updates = []
 
