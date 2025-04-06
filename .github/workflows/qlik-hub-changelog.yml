@@ -28,10 +28,11 @@ jobs:
         GOOGLE_CHAT_WEBHOOK: ${{ secrets.GOOGLE_CHAT_WEBHOOK }}
       run: python check_qlik_hub_changelog.py
 
-    - name: Commit updated last_seen_hub.txt
+    - name: Commit updated last_seen_titles.txt to repo
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add last_seen_hub.txt
-        git commit -m "Update last_seen_hub.txt [bot]" || echo "No changes to commit"
+        git add last_seen_titles.txt
+        git commit -m "Update last_seen_titles.txt [bot]" || echo "No changes to commit"
         git push
+
