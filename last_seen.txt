@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/132-api-updates-ml-model-aliases/
+https://qlik.dev/changelog/131-sn-kpi-hover-menu/
