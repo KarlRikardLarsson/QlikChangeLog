@@ -14,7 +14,7 @@ days_to_look_back = 7
 if not chat_webhook:
     raise ValueError("❌ GOOGLE_CHAT_WEBHOOK not set!")
 
-# === Parse US-style dates like 4/3/2025 or 12/25/2025
+# === Date parser: supports 4/3/2025 etc.
 def parse_date(text):
     match = re.match(r"^(\d{1,2})/(\d{1,2})/(\d{4})", text)
     if match:
@@ -39,26 +39,26 @@ async def main():
         print(f"🧠 Loaded {len(seen_entries)} previously seen entries.")
 
         paragraphs = await page.locator("p").all()
-        date_pattern = r"^\d{1,2}/\d{1,2}/\d{4}"
+        date_pattern = r"\d{1,2}/\d{1,2}/\d{4}"
         updates = []
 
         for p in paragraphs:
-            p_text = (await p.text_content()).strip()
+            p_text = re.sub(r"\s+", " ", (await p.text_content()).strip())
 
-            if re.match(date_pattern, p_text):
-                print(f"📅 Found dated paragraph: {p_text[:30]}")
+            date_match = re.search(date_pattern, p_text)
+            if date_match:
+                found_date = date_match.group()
+                print(f"📅 Found date: {found_date} in → {p_text[:60]}")
             else:
-                print(f"🚫 Skipped (no match): {p_text[:30]}")
+                print(f"🚫 Skipped (no date): {p_text[:60]}")
                 continue
 
-            post_date = parse_date(p_text)
+            post_date = parse_date(found_date)
             if not post_date:
                 continue
 
-            print(f"📅 Parsed date: {p_text[:10]} → {post_date.date()}")
-
             if post_date < now - timedelta(days=days_to_look_back):
-                print(f"📭 Skipping old post: {p_text[:10]}")
+                print(f"📭 Skipping old post: {found_date}")
                 continue
 
             h2 = p.locator("xpath=preceding-sibling::h2[1]")
@@ -66,7 +66,7 @@ async def main():
                 continue
 
             title = (await h2.text_content()).strip()
-            unique_id = f"{title} - {p_text[:10]}"
+            unique_id = f"{title} - {found_date}"
 
             if unique_id in seen_entries:
                 print(f"↪️ Already seen: {unique_id}")
@@ -74,7 +74,7 @@ async def main():
 
             updates.append({
                 "title": title,
-                "date": p_text[:10],
+                "date": found_date,
                 "summary": p_text,
                 "id": unique_id
             })
