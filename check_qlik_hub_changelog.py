@@ -14,7 +14,6 @@ days_to_look_back = 7
 if not chat_webhook:
     raise ValueError("❌ GOOGLE_CHAT_WEBHOOK not set!")
 
-# === Parse US-style dates like 4/3/2025 or 12/25/2025
 def parse_date(text):
     match = re.match(r"^(\d{1,2})/(\d{1,2})/(\d{4})", text)
     if match:
@@ -28,7 +27,6 @@ async def main():
         page = await browser.new_page()
         await page.goto(url, timeout=60000)
 
-        # Optional: wait for rendering
         await page.wait_for_timeout(3000)
         await page.wait_for_selector("h2", timeout=15000, state="attached")
 
@@ -41,28 +39,30 @@ async def main():
 
         print(f"🧠 Loaded {len(seen_entries)} previously seen entries.")
 
-        # Grab only paragraphs directly following h2
-        paragraphs = await page.locator("h2 + p").all()
-        print(f"🔍 Scanning {len(paragraphs)} paragraphs under h2 headers.")
-
-        if not paragraphs:
-            print("⚠️ No <p> elements found following <h2> — page layout may have changed.")
+        headings = await page.locator("h2").all()
+        print(f"🔍 Found {len(headings)} changelog blocks.")
 
         date_pattern = r"\d{1,2}/\d{1,2}/\d{4}"
         updates = []
 
-        for p in paragraphs:
-            p_text = re.sub(r"\s+", " ", (await p.text_content()).strip())
-            print(f"👀 Raw paragraph: {p_text[:80]}")
+        for h2 in headings:
+            title = (await h2.text_content()).strip()
+            print(f"🧩 Heading: {title[:60]}")
 
-            date_match = re.search(date_pattern, p_text)
-            if date_match:
-                found_date = date_match.group()
-                print(f"📅 Found date: {found_date} in → {p_text[:60]}")
-            else:
-                print(f"🚫 Skipped (no date): {p_text[:60]}")
+            # Get the first following <p> (date line)
+            date_p = h2.locator("xpath=following-sibling::p[1]")
+            if await date_p.count() == 0:
                 continue
 
+            date_text = re.sub(r"\s+", " ", (await date_p.text_content()).strip())
+            print(f"🕵️ Date candidate: {date_text[:60]}")
+
+            date_match = re.search(date_pattern, date_text)
+            if not date_match:
+                print("🚫 Skipped — no valid date line found")
+                continue
+
+            found_date = date_match.group()
             post_date = parse_date(found_date)
             if not post_date:
                 continue
@@ -71,11 +71,14 @@ async def main():
                 print(f"📭 Skipping old post: {found_date}")
                 continue
 
-            h2 = p.locator("xpath=preceding-sibling::h2[1]")
-            if await h2.count() == 0:
-                continue
+            # Get next 1-2 paragraphs for summary
+            summary_parts = []
+            for i in range(2, 4):
+                sibling = h2.locator(f"xpath=following-sibling::p[{i}]")
+                if await sibling.count() > 0:
+                    summary_parts.append((await sibling.text_content()).strip())
 
-            title = (await h2.text_content()).strip()
+            summary = "\n".join(summary_parts)
             unique_id = f"{title} - {found_date}"
 
             if unique_id in seen_entries:
@@ -85,7 +88,7 @@ async def main():
             updates.append({
                 "title": title,
                 "date": found_date,
-                "summary": p_text,
+                "summary": summary,
                 "id": unique_id
             })
 
