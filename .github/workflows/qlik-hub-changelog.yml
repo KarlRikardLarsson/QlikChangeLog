@@ -18,15 +18,17 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Install dependencies
-      run: pip install requests beautifulsoup4
+    - name: Install dependencies (Playwright)
+      run: |
+        pip install requests playwright
+        playwright install
 
-    - name: Run Hub changelog monitor
+    - name: Run changelog script
       env:
         GOOGLE_CHAT_WEBHOOK: ${{ secrets.GOOGLE_CHAT_WEBHOOK }}
       run: python check_qlik_hub_changelog.py
 
-    - name: Commit updated last_seen_hub.txt to repo
+    - name: Commit updated last_seen_hub.txt
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
