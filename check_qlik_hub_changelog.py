@@ -38,7 +38,7 @@ async def main():
 
         print(f"🧠 Loaded {len(seen_entries)} previously seen entries.")
 
-        paragraphs = await page.locator("p").all()
+        paragraphs = await page.locator(".main-page-content p").all()
         date_pattern = r"\d{1,2}/\d{1,2}/\d{4}"
         updates = []
 
