@@ -40,10 +40,12 @@ jobs:
         path: last_seen.txt
 
     # Optional: Push changes to repo instead of using artifacts
-     - name: Commit updated last_seen.txt to repo
-         run: |
-           git config --global user.name "github-actions[bot]"
-           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-           git add last_seen.txt
-           git commit -m "Update last_seen.txt [bot]" || echo "No changes to commit"
-           git push
+    # Uncomment below if you want to version-control last_seen.txt
+
+    # - name: Commit updated last_seen.txt to repo
+    #   run: |
+    #     git config --global user.name "github-actions[bot]"
+    #     git config --global user.email "github-actions[bot]@users.noreply.github.com"
+    #     git add last_seen.txt
+    #     git commit -m "Update last_seen.txt [bot]" || echo "No changes to commit"
+    #     git push
