@@ -2,8 +2,8 @@ name: Qlik Changelog Watcher
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # Runs daily at 08:00 UTC
-  workflow_dispatch:       # Allow manual trigger
+    - cron: '0 8 * * *'  # Run daily at 08:00 UTC
+  workflow_dispatch:
 
 jobs:
   check-changelog:
@@ -21,8 +21,20 @@ jobs:
     - name: Install Dependencies
       run: pip install feedparser requests
 
+    - name: Download last_seen.txt
+      uses: actions/download-artifact@v4
+      with:
+        name: last-seen
+        path: .
+      continue-on-error: true
+
     - name: Run Changelog Monitor
       env:
         GOOGLE_CHAT_WEBHOOK: ${{ secrets.GOOGLE_CHAT_WEBHOOK }}
-      run: |
-        python check_changelog.py
+      run: python check_changelog.py
+
+    - name: Upload last_seen.txt
+      uses: actions/upload-artifact@v4
+      with:
+        name: last-seen
+        path: last_seen.txt
