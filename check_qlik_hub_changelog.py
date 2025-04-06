@@ -14,6 +14,7 @@ days_to_look_back = 7
 if not chat_webhook:
     raise ValueError("❌ GOOGLE_CHAT_WEBHOOK not set!")
 
+# === Date parser for MM/DD/YYYY or M/D/YYYY
 def parse_date(text):
     match = re.match(r"^(\d{1,2})/(\d{1,2})/(\d{4})", text)
     if match:
@@ -27,7 +28,7 @@ async def main():
         page = await browser.new_page()
         await page.goto(url, timeout=60000)
 
-        # Optional wait in case content loads slowly
+        # Optional: give it time to render content
         await page.wait_for_timeout(3000)
         await page.wait_for_selector("h2", timeout=15000)
 
@@ -40,9 +41,9 @@ async def main():
 
         print(f"🧠 Loaded {len(seen_entries)} previously seen entries.")
 
-        # Scope only to main changelog content
-        paragraphs = await page.locator("div.main-page-content p").all()
-        print(f"🔍 Scanned {len(paragraphs)} paragraphs.")
+        # Grab paragraphs directly following headings (changelog entries)
+        paragraphs = await page.locator("h2 + p").all()
+        print(f"🔍 Scanned {len(paragraphs)} potential changelog entries.")
 
         date_pattern = r"\d{1,2}/\d{1,2}/\d{4}"
         updates = []
@@ -66,6 +67,7 @@ async def main():
                 print(f"📭 Skipping old post: {found_date}")
                 continue
 
+            # Get the <h2> above the <p>
             h2 = p.locator("xpath=preceding-sibling::h2[1]")
             if await h2.count() == 0:
                 continue
@@ -101,6 +103,7 @@ async def main():
             else:
                 print(f"❌ Failed to send: {res.status_code} - {res.text}")
 
+        # Save what we've seen
         with open(state_file, "w") as f:
             for entry in seen_entries:
                 f.write(entry + "\n")
