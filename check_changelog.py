@@ -2,37 +2,41 @@ import feedparser
 import os
 import requests
 
-# === Config ===
+# === Configuration ===
 feed_url = "https://qlik.dev/rss.xml"
 state_file = "last_seen.txt"
 chat_webhook = os.environ.get("GOOGLE_CHAT_WEBHOOK")
 
 if not chat_webhook:
-    raise ValueError("❌ Google Chat webhook URL not found in environment variables!")
+    raise ValueError("❌ Google Chat webhook URL not set in environment variables!")
 
-# === Fetch and parse RSS ===
+# === Load the feed ===
 feed = feedparser.parse(feed_url)
 entries = feed.entries
 
 if not entries:
-    print("❌ No entries found in the RSS feed.")
+    print("❌ No entries found in the RSS feed. Exiting.")
     exit(1)
 
-# === Load last seen link ===
+# === Load the last seen link (if it exists and is not empty) ===
+last_seen_link = None
 if os.path.exists(state_file):
     with open(state_file, "r") as f:
-        last_seen_link = f.read().strip()
-else:
-    last_seen_link = None
+        content = f.read().strip()
+        if content:
+            last_seen_link = content
+        else:
+            print("⚠️ last_seen.txt exists but is empty. Treating as first run.")
 
-# === First run: Set last seen and exit ===
+# === First run logic: just set the latest and exit ===
 if last_seen_link is None:
-    print("🛠 First run detected. Setting last seen to latest entry without sending messages.")
+    latest_link = entries[0].link
     with open(state_file, "w") as f:
-        f.write(entries[0].link)
+        f.write(latest_link)
+    print(f"🛠 First run: Set last seen to latest entry: {latest_link}")
     exit(0)
 
-# === Find new entries ===
+# === Find new entries since last seen ===
 new_entries = []
 for entry in entries:
     if entry.link == last_seen_link:
@@ -42,22 +46,22 @@ for entry in entries:
 # Reverse to send in chronological order
 new_entries.reverse()
 
-# === Send messages for new entries ===
-for entry in new_entries:
-    msg = {
-        "text": f"🚀 *New Qlik Changelog Entry!*\n*{entry.title}*\n🔗 {entry.link}"
-    }
-    res = requests.post(chat_webhook, json=msg)
-    if res.status_code == 200:
-        print(f"✅ Sent: {entry.title}")
-    else:
-        print(f"❌ Failed to send: {entry.title} – {res.status_code}, {res.text}")
+# === Send messages to Google Chat ===
+if not new_entries:
+    print("✅ No new updates found.")
+else:
+    for entry in new_entries:
+        msg = {
+            "text": f"🚀 *New Qlik Changelog Entry!*\n*{entry.title}*\n🔗 {entry.link}"
+        }
+        response = requests.post(chat_webhook, json=msg)
+        if response.status_code == 200:
+            print(f"✅ Sent: {entry.title}")
+        else:
+            print(f"❌ Failed to send: {entry.title} – {response.status_code}, {response.text}")
 
-# === Update last seen if needed ===
-if new_entries:
+    # Update last_seen.txt with the most recent entry
     latest_link = new_entries[-1].link
     with open(state_file, "w") as f:
         f.write(latest_link)
     print(f"📌 Updated last seen to: {latest_link}")
-else:
-    print("✅ No new updates found.")
