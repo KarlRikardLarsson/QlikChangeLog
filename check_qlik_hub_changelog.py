@@ -8,7 +8,7 @@ state_file = "last_seen_hub.txt"
 chat_webhook = os.environ.get("GOOGLE_CHAT_WEBHOOK")
 
 if not chat_webhook:
-    raise ValueError("❌ Google Chat webhook URL not set!")
+    raise ValueError("❌ GOOGLE_CHAT_WEBHOOK not set!")
 
 # Load page
 response = requests.get(url)
@@ -17,15 +17,15 @@ if response.status_code != 200:
 
 soup = BeautifulSoup(response.text, "html.parser")
 
-# Extract latest update - targeting first changelog section
-latest_section = soup.select_one("div.topic")
-if not latest_section:
-    raise Exception("❌ Couldn't find changelog content.")
+# Find the first h2 and the following paragraph
+latest_title = soup.find("h2")
+latest_paragraph = latest_title.find_next_sibling("p") if latest_title else None
 
-# Extract heading and date text
-heading = latest_section.find("h2")
-content = latest_section.find("p")
-latest_entry = f"{heading.get_text(strip=True)} - {content.get_text(strip=True)}"
+if not latest_title or not latest_paragraph:
+    raise Exception("❌ Couldn't find latest changelog content.")
+
+# Compose entry string
+latest_entry = f"{latest_title.get_text(strip=True)} - {latest_paragraph.get_text(strip=True)}"
 
 # Load last seen
 if os.path.exists(state_file):
@@ -37,16 +37,16 @@ else:
 # Compare and notify
 if latest_entry != last_seen:
     message = {
-        "text": f"📢 *New Qlik SaaS Hub Update!*\n\n*{heading.get_text(strip=True)}*\n📅 {content.get_text(strip=True)}\n🔗 {url}"
+        "text": f"📢 *New Qlik Hub Update!*\n\n*{latest_title.get_text(strip=True)}*\n🗓️ {latest_paragraph.get_text(strip=True)}\n🔗 {url}"
     }
 
-    post = requests.post(chat_webhook, json=message)
-    if post.status_code == 200:
-        print(f"✅ Update sent: {latest_entry}")
+    res = requests.post(chat_webhook, json=message)
+    if res.status_code == 200:
+        print(f"✅ Message sent: {latest_entry}")
     else:
-        print(f"❌ Failed to send message: {post.status_code}, {post.text}")
+        print(f"❌ Failed to send: {res.status_code}, {res.text}")
 
-    # Save the new entry
+    # Save state
     with open(state_file, "w") as f:
         f.write(latest_entry)
 else:
