@@ -8,24 +8,26 @@ state_file = "last_seen_hub.txt"
 chat_webhook = os.environ.get("GOOGLE_CHAT_WEBHOOK")
 
 if not chat_webhook:
-    raise ValueError("❌ GOOGLE_CHAT_WEBHOOK not set!")
+    raise ValueError("❌ GOOGLE_CHAT_WEBHOOK is not set!")
 
-# Load page
+# Fetch the page
 response = requests.get(url)
 if response.status_code != 200:
-    raise Exception(f"Failed to fetch page: {response.status_code}")
+    raise Exception(f"Failed to load changelog page: {response.status_code}")
 
-soup = BeautifulSoup(response.text, "html.parser")
+soup = BeautifulSoup(response.content, "html.parser")
 
-# Find the first h2 and the following paragraph
-latest_title = soup.find("h2")
-latest_paragraph = latest_title.find_next_sibling("p") if latest_title else None
+# Find the first update block
+first_block = soup.find("div", class_="cq-text")
+if not first_block:
+    raise Exception("❌ Could not find changelog entry.")
 
-if not latest_title or not latest_paragraph:
-    raise Exception("❌ Couldn't find latest changelog content.")
+# Extract title and content
+title = first_block.find("h2").get_text(strip=True)
+paragraph = first_block.find("p").get_text(separator=" ", strip=True)
 
-# Compose entry string
-latest_entry = f"{latest_title.get_text(strip=True)} - {latest_paragraph.get_text(strip=True)}"
+# Compose the latest update string
+latest_entry = f"{title} - {paragraph}"
 
 # Load last seen
 if os.path.exists(state_file):
@@ -34,20 +36,20 @@ if os.path.exists(state_file):
 else:
     last_seen = None
 
-# Compare and notify
+# Check and notify if it's new
 if latest_entry != last_seen:
     message = {
-        "text": f"📢 *New Qlik Hub Update!*\n\n*{latest_title.get_text(strip=True)}*\n🗓️ {latest_paragraph.get_text(strip=True)}\n🔗 {url}"
+        "text": f"📢 *New Qlik SaaS Update!*\n\n*{title}*\n🗓️ {paragraph}\n🔗 {url}"
     }
 
     res = requests.post(chat_webhook, json=message)
     if res.status_code == 200:
-        print(f"✅ Message sent: {latest_entry}")
+        print(f"✅ Update sent to Google Chat: {title}")
     else:
-        print(f"❌ Failed to send: {res.status_code}, {res.text}")
+        print(f"❌ Failed to send message: {res.status_code}, {res.text}")
 
-    # Save state
     with open(state_file, "w") as f:
         f.write(latest_entry)
 else:
-    print("✅ No new updates.")
+    print("✅ No new update found.")
+8
