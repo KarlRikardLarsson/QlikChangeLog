@@ -14,7 +14,7 @@ days_to_look_back = 7
 if not chat_webhook:
     raise ValueError("❌ GOOGLE_CHAT_WEBHOOK not set!")
 
-# === Date parser for MM/DD/YYYY or M/D/YYYY
+# === Parse US-style dates like 4/3/2025 or 12/25/2025
 def parse_date(text):
     match = re.match(r"^(\d{1,2})/(\d{1,2})/(\d{4})", text)
     if match:
@@ -28,7 +28,7 @@ async def main():
         page = await browser.new_page()
         await page.goto(url, timeout=60000)
 
-        # Optional: give it time to render content
+        # Optional: wait for rendering
         await page.wait_for_timeout(3000)
         await page.wait_for_selector("h2", timeout=15000, state="attached")
 
@@ -41,15 +41,19 @@ async def main():
 
         print(f"🧠 Loaded {len(seen_entries)} previously seen entries.")
 
-        # Grab paragraphs directly following headings (changelog entries)
+        # Grab only paragraphs directly following h2
         paragraphs = await page.locator("h2 + p").all()
-        print(f"🔍 Scanned {len(paragraphs)} potential changelog entries.")
+        print(f"🔍 Scanning {len(paragraphs)} paragraphs under h2 headers.")
+
+        if not paragraphs:
+            print("⚠️ No <p> elements found following <h2> — page layout may have changed.")
 
         date_pattern = r"\d{1,2}/\d{1,2}/\d{4}"
         updates = []
 
         for p in paragraphs:
             p_text = re.sub(r"\s+", " ", (await p.text_content()).strip())
+            print(f"👀 Raw paragraph: {p_text[:80]}")
 
             date_match = re.search(date_pattern, p_text)
             if date_match:
@@ -67,7 +71,6 @@ async def main():
                 print(f"📭 Skipping old post: {found_date}")
                 continue
 
-            # Get the <h2> above the <p>
             h2 = p.locator("xpath=preceding-sibling::h2[1]")
             if await h2.count() == 0:
                 continue
@@ -103,7 +106,6 @@ async def main():
             else:
                 print(f"❌ Failed to send: {res.status_code} - {res.text}")
 
-        # Save what we've seen
         with open(state_file, "w") as f:
             for entry in seen_entries:
                 f.write(entry + "\n")
