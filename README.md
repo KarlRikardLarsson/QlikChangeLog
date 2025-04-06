@@ -44,7 +44,5 @@ To run the workflow now and verify everything works:
 - GitHub Actions enabled
 - Google Chat webhook set as a secret
 
----
 
-## 💬 Output Example in Google Chat
 
