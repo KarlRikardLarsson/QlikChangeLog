@@ -694,6 +694,7 @@ Updates to font styling for scatter plots and text & image objects
 Updates to font styling for tables and pivot table
 Updates to font styling in bar charts
 Updates to font styling with bar charts
+Updates to scripting topics
 Updates to styling for button objects
 Updates to styling for waterfall, histogram, distribution plot, box plot, gauge, and KPI charts
 Updates to the Application Automation canvas
