@@ -30,7 +30,7 @@ async def main():
 
         # Optional: give it time to render content
         await page.wait_for_timeout(3000)
-        await page.wait_for_selector("h2", timeout=15000)
+        await page.wait_for_selector("h2", timeout=15000, state="attached")
 
         now = datetime.now(timezone.utc)
         seen_entries = set()
