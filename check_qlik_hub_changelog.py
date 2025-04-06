@@ -44,8 +44,11 @@ async def main():
 
         for p in paragraphs:
             p_text = (await p.text_content()).strip()
-            if not re.match(date_pattern, p_text):
-                continue
+           if re.match(date_pattern, p_text):
+    print(f"📅 Found dated paragraph: {p_text[:30]}")
+else:
+    print(f"🚫 Skipped (no match): {p_text[:30]}")
+
 
             post_date = parse_date(p_text)
             if not post_date:
