@@ -1,5 +1,6 @@
 AI processor for Snowflake
 AI processor for transformation flows
+AI recommended relationships in Qlik Talend Cloud data models
 AI-based SQL Assistant
 API rate limiting enforcement
 AYLIEN text analysis data source
@@ -326,6 +327,8 @@ Managing field-level metadata
 Managing usage metrics
 Manually add points and lines to line charts
 Many new  SaaS application connectors for Qlik Talend Cloud
+Map chart WMS improvements
+Map chart selection styling
 Master measures in expressions
 Merge command in script
 Microsoft Power BI Connector in Qlik Lineage Connectors now supports GCC and GCC High
@@ -378,6 +381,7 @@ New Direct Access gateway version
 New Direct Access gateway version (1.7.0)
 New Direct Access gateway version (1.7.1)
 New Direct Access gateway version (1.7.2)
+New Direct Access gateway version (1.7.3)
 New DynamoDB Connector, ODBC-based
 New Google Ads Connector
 New Google Analytics 4 Connector
@@ -577,6 +581,7 @@ Release notes for administrators
 Reloading tables
 Removal notice of event from audit service in Qlik Cloud
 Removal of Sheets button
+Removal of deprecated objects
 Rendering GB instead of GiB in Management Console
 Replace imported source databases and schemas in data projects
 Report task cycling
