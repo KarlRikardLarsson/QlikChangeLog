@@ -566,6 +566,7 @@ Qlik Talend Data Integration: Physical objects and data preview
 Qlik add-in for Microsoft Excel - optimized experience for changing source app
 Qlik has achieved updated or new certifications related to Qlik Cloud
 QlikView to Qlik Cloud Migration
+Quality compute pushdown now available for Databricks Unity
 Re-designed view for transform tasks
 Real-world use case and example for KMeans
 Receive notifications for AutoML experiments
