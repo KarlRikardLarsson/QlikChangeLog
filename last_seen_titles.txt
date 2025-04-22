@@ -138,6 +138,8 @@ DDL propagation support
 DID THIS PAGE HELP YOU?
 Dark mode base map
 Data Condition Evaluation history
+Data Flow: Enhanced expression editor in Calculate fields processor
+Data Flow: Expanded processors with RegEx support, multi-output forks, and number conversion
 Data Integration merges Prepare and Sync into a single Prepare command
 Data Integration: deleting projects
 Data Lakehouse capabilities for Snowflake projects
@@ -309,6 +311,7 @@ Legal
 Leverage warehouse data ingested by third-party solutions
 Line
 Line charts can display larger datasets
+Lineage and impact analysis for machine learning content
 Links to sheets in Catalog
 List data alerts inside Qlik Sense app
 Loading data files in GeoOperations
