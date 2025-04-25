@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/134-data-connections-api-changes/
+https://qlik.dev/changelog/135-tasks-api/
