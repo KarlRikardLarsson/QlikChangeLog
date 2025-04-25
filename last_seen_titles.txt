@@ -153,6 +153,7 @@ Data preparation in the hub
 Data products catalog
 Data products catalog now generally available
 Data quality now available in pullup mode for MongoDB datasets
+Data quality validation rules
 Data window functions in engine load script
 Databricks ODBC Connector has  OAuth support and improved interface
 Date feature engineering
