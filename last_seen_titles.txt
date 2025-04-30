@@ -18,6 +18,7 @@ Added support for Amazon Bedrock
 Added support for Amazon Bedrock Claude3
 Adding a Qlik Application Automation to buttons in apps
 Adding custom analyses with Insight Advisor
+Adding datasets in Qlik AutoML`
 Adding datasets in Qlik AutoML
 Adding support for custom groups to the Qlik Cloud Services connector
 Additional Qlik Talend Cloud application connectors
@@ -320,6 +321,7 @@ Loading data from the data catalog in Data load editor
 Localization of embedded analytics in ML experiments
 ML Deployment UI Improvements
 Machine Learning API
+Machine learning with Qlik AutoML
 Machine learning with Qlik AutoML
 Machine-to-Machine (M2M) enabled OAuth clients
 Mail connector for Qlik Application Automation now supported in Qlik Cloud Government
@@ -412,6 +414,7 @@ New Starter edition with simplified UX
 New UI settings
 New access controls for sharing notes
 New actions for button object
+New algorithms for Qlik AutoML
 New algorithms for Qlik AutoML
 New and enhanced features in Qlik Talend Data Integration
 New and improved combo chart
@@ -514,6 +517,7 @@ Period over period analysis
 Period over period dashboards in Insight Advisor
 Pivot table expand and collapse options
 PixelPerfect report authoring
+PixelPerfect report authoring - refresh source data binding for new measures/dimensions
 Preview new asset panel
 Print, subscribe, snapshot, and monitor with the new Pivot table
 Privacy Preference Center
