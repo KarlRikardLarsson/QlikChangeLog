@@ -218,6 +218,9 @@ Format specifier added for STORE of parquet files with nested data
 Freshness indicator available
 Freshness indicator for enhanced data quality of datasets
 Frictionless first-time data and insights experience
+From Qlik Sense Client-Managed
+From QlikView
+From Stitch
 General Information on Cookies
 General styling of bundled charts
 Generate dynamic prediction dataset names with time-specific variables in Qlik AutoML
@@ -508,6 +511,7 @@ OpenAI Chat Completion block
 OpenAI Connector for Application Automation
 Optimizing data delivery to cloud platforms
 Option to limit the scope for Google Drive connector to read-only
+Other cloud solutions
 PDF file format support for tabular reports
 Pane for monitoring capacity consumption now supported in Qlik Cloud Government
 Parallel Load improvements
@@ -650,6 +654,7 @@ Support for Microsoft Fabric as a data pipeline target
 Support for OAuth in the Salesforce connector
 Support for SAP HANA as a backend database for the SAP Application connector
 Support for SQL Server target in Qlik Cloud Data Integration
+Support for Snowflake secure views
 Support for Unity Catalog in Databricks data connections
 Support for accessing ServiceNow via Direct Access gateway
 Support for additional ODBC and JDBC connection properties in the Snowflake target connector
