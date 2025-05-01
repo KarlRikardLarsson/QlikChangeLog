@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/136-data-quality-api/
+https://qlik.dev/changelog/137-platform-ops-connector/
