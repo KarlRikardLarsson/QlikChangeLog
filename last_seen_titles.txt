@@ -184,6 +184,7 @@ Easier way of documenting dataset descriptions
 Enable a navigation link to Talend Cloud
 Enable and disable autocomplete in script and expression editors
 Enable webhooks for all users and allow event filtering
+Enforcement of third-party overages for Qlik Application Automation
 Enhanced opening experience for analytic apps
 Enhanced support for connection-based datasets in data preparation and applications
 Enhanced support for metadata changes in replication and lake landing tasks
@@ -228,6 +229,7 @@ Generic support for trusted OAuth clients
 GeoOperations INTABLE support for coordinate conversion
 GeoOperations analytics sources wizard
 Glossary enhancements on the Qlik helpsite
+Glossary export and import for Excel and CSV files
 Google Analytics 4 connector adds filter capabilities
 Google Cloud SQL for PostgreSQL as a source
 Graphical transformation flow designer
@@ -391,6 +393,7 @@ New Direct Access gateway version (1.7.0)
 New Direct Access gateway version (1.7.1)
 New Direct Access gateway version (1.7.2)
 New Direct Access gateway version (1.7.3)
+New Direct Access gateway version (1.7.4)
 New DynamoDB Connector, ODBC-based
 New Google Ads Connector
 New Google Analytics 4 Connector
@@ -511,6 +514,7 @@ OpenAI Chat Completion block
 OpenAI Connector for Application Automation
 Optimizing data delivery to cloud platforms
 Option to limit the scope for Google Drive connector to read-only
+Org Chart, now with images and new styling settings
 Other cloud solutions
 PDF file format support for tabular reports
 Pane for monitoring capacity consumption now supported in Qlik Cloud Government
@@ -583,6 +587,7 @@ Re-designed view for transform tasks
 Real-world use case and example for KMeans
 Receive notifications for AutoML experiments
 Recipient limits changed
+Recommended machine learning models
 Redesigned documentation
 Refine your in-app subscriptions with dynamic expressions
 Refresh and change dataset for new AutoML experiment version
