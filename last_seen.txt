@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/137-platform-ops-connector/
+https://qlik.dev/changelog/138-api-updates-plugins-api-removal/
