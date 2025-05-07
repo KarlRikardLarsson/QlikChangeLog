@@ -22,8 +22,8 @@ async def main():
         page = await browser.new_page()
         await page.goto(url, timeout=60000)
 
-        await page.wait_for_timeout(30000)
-        await page.wait_for_selector("h2", timeout=15000, state="attached")
+        await page.wait_for_timeout(60000)
+        await page.wait_for_selector("h2", timeout=60000, state="attached")
 
         seen_titles = set()
         if os.path.exists(state_file):
