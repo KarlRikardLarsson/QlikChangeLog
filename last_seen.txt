@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/138-api-updates-plugins-api-removal/
+https://qlik.dev/changelog/139-ui-event-sense-sheet-view-opened/
