@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/139-ui-event-sense-sheet-view-opened/
+https://qlik.dev/changelog/140-api-direct-access-agents/
