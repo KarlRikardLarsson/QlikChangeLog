@@ -300,6 +300,7 @@ Insight Advisor supports dollar-sign expansion
 Introducing Qlik Talend Data Integration
 Introducing Qlik Trust Score™ for measuring dataset trustworthiness
 Introducing Qlik conversational analytics in Microsoft Teams
+Introducing public API for Direct Access gateway configurations
 Introducing support for projects in the Qlik Talend Cloud Data Integration connector in Qlik Application Automation
 Introducing the new Qlik Answers connector for Qlik Application Automation
 KPI background color and new icons
@@ -640,6 +641,7 @@ Simplified authoring experience in Qlik Cloud: Full availability
 Simplified metadata change experience
 Snowflake connectivity enhancements
 Snowflake target connections in Data Integration now  support key pair authentication
+Snowpipe Streaming support
 Straight table styling improvements
 Straight table: multi-page download to PDF
 Structure Direct Query apps with script variables
