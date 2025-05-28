@@ -329,6 +329,7 @@ Layout container improvements
 Legal
 Leverage warehouse data ingested by third-party solutions
 Line
+Line chart shapes with labels and symbols
 Line charts can display larger datasets
 Lineage and impact analysis for machine learning content
 Links to sheets in Catalog
