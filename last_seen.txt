@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/140-api-direct-access-agents/
+https://qlik.dev/changelog/141-api-updates-direct-access-agents/
