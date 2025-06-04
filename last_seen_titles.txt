@@ -413,6 +413,7 @@ New Direct Access gateway version (1.7.1)
 New Direct Access gateway version (1.7.2)
 New Direct Access gateway version (1.7.3)
 New Direct Access gateway version (1.7.4)
+New Direct Access gateway version (1.7.5)
 New DynamoDB Connector, ODBC-based
 New Google Ads Connector
 New Google Analytics 4 Connector
@@ -747,6 +748,7 @@ Updated Natural Language Insights object
 Updated Salesforce connector
 Updated Teradata connector including SSO support
 Updated admin.apps scope
+Updated editing experience
 Updated support for Azure ML
 Updated tutorial for Qlik AutoML
 Updates to  Application Automation
