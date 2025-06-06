@@ -309,6 +309,7 @@ Insight Advisor supports dollar-sign expansion
 Introducing Qlik Talend Data Integration
 Introducing Qlik Trust Score™ for measuring dataset trustworthiness
 Introducing Qlik conversational analytics in Microsoft Teams
+Introducing Shared Automations
 Introducing public API for Direct Access gateway configurations
 Introducing support for projects in the Qlik Talend Cloud Data Integration connector in Qlik Application Automation
 Introducing support for projects in the Qlik Talend Cloud Data Integration connector in Qlik Automate
@@ -619,6 +620,7 @@ Qlik SenseGeoOperations
 Qlik Talend Cloud Data Integration improvements
 Qlik Talend Data Integration improvements
 Qlik Talend Data Integration: Physical objects and data preview
+Qlik Trust Score™ historization
 Qlik add-in for Microsoft Excel - optimized experience for changing source app
 Qlik has achieved updated or new certifications related to Qlik Cloud
 QlikView to Qlik Cloud Migration
