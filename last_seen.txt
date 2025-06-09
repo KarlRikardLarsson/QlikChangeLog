@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/143-new-gauge-visualization/
+https://qlik.dev/changelog/144-qlik-cli-update/
