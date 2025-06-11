@@ -221,6 +221,7 @@ Features now in Qlik Cloud Government
 Field-level lineage and impact analysis
 Filter on spaces to search and browse
 Filter pane styling
+Folder support for storage of prediction and experiment datasets
 Font styling with map charts
 Format specifier added for STORE of parquet files with nested data
 Freshness indicator available
@@ -561,6 +562,7 @@ Performance improvements for the ODBC connectors
 Period over period analysis
 Period over period dashboards in Insight Advisor
 Pivot table expand and collapse options
+Pivot table indicators
 PixelPerfect report authoring
 PixelPerfect report authoring - refresh source data binding for new measures/dimensions
 Preview new asset panel
