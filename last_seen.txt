@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/144-qlik-cli-update/
+https://qlik.dev/changelog/145-api-updates-ml-model-recommendations/
