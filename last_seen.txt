@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/145-api-updates-ml-model-recommendations/
+https://qlik.dev/changelog/146-developer-role-deprecation/
