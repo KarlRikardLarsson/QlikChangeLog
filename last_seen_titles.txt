@@ -163,6 +163,7 @@ Data quality validation rules
 Data window functions in engine load script
 Databricks ODBC Connector has  OAuth support and improved interface
 Date feature engineering
+Dedicated menu entry for data product management
 Default tab for containers
 Delete File block for the GitHub connector
 Deleting Qlik Cloud tenants
@@ -442,6 +443,7 @@ New Qlik Sense Connector for Databricks
 New Qlik Talend Data Integration landing page
 New SAP ODP Connector
 New Starter edition with simplified UX
+New Straight table becomes default
 New UI settings
 New access controls for sharing notes
 New actions for button object
@@ -622,6 +624,7 @@ Qlik SenseGeoOperations
 Qlik Talend Cloud Data Integration improvements
 Qlik Talend Data Integration improvements
 Qlik Talend Data Integration: Physical objects and data preview
+Qlik Trust Score™ for AI
 Qlik Trust Score™ for AI-readiness
 Qlik Trust Score™ historization
 Qlik add-in for Microsoft Excel - optimized experience for changing source app
@@ -671,7 +674,9 @@ Schema evolution improvements
 Search and replace in expression editor
 Section access apps in Insight Advisor Chat
 Section access behavior
+Secured access to data sources using SSH tunnel
 Securely access SAP data behind firewalls
+Security enhancements for Qlik Sense Mobile SaaS
 Select locale for app creation
 Selection bar improvements
 Self-Service Scheduling – Task Chaining & Multi-Task Support
