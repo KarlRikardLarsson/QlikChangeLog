@@ -172,6 +172,7 @@ Demo apps included in Qlik Sense SaaS
 Deprecation of bar & area chart from the visualization bundle
 Deprecation of the Share button
 Deprecation of the evaluations API
+Developer role and API key toggle deprecated
 Did this page help you?
 Direct Access gateway hot fix for excessive CPU utilization
 Direct Query adds support for Databricks
