@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/147-api-updates-shared-automations/
+https://qlik.dev/changelog/148-qlik-embed-multi-tenant/
