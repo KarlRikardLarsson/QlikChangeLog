@@ -203,6 +203,7 @@ Enhancements to Qlik's Customer Managed Keys (CMK)
 Enhancements to Qlik’s Customer Managed Keys (CMK)
 Entering database names manually instead of selecting from a list
 Enterprise access control
+Evaluate app performance for on-premise apps in your cloud tenant
 Example questions in Insight Advisor
 Execution token renewal for triggered automations
 Expanded Data Quality Computation for broader data sources
@@ -245,6 +246,7 @@ Google Cloud SQL for PostgreSQL as a source
 Graphical transformation flow designer
 Grid chart
 Group support for notes
+HTML reports for the inbox!
 Help Resources
 Hidden sheets
 Hide or show measures in a bar chart based on conditions
@@ -486,6 +488,7 @@ New features and enhancements in Qlik Cloud Data Integration
 New filter pane settings
 New filters for monitor views: "Source type" and "Data gateway"
 New gateway-less data loader capability
+New import format and user interface in Qlik Talend Cloud Pipelines
 New inner and outer set expressions in set analysis
 New label option and layout improvements with grid charts
 New left-side navigation panel in the Management Console
@@ -568,6 +571,7 @@ Pivot table expand and collapse options
 Pivot table indicators
 PixelPerfect report authoring
 PixelPerfect report authoring - refresh source data binding for new measures/dimensions
+PixelPerfect template editor improvements
 Preview new asset panel
 Print, subscribe, snapshot, and monitor with the new Pivot table
 Privacy Preference Center
@@ -645,6 +649,7 @@ Refreshing metadata
 Registering data loaded by Stitch
 Relative importance analysis
 Release notes for administrators
+Reload-time variable updates and variable constraints
 Reloading tables
 Removal notice of event from audit service in Qlik Cloud
 Removal of Sheets button
@@ -790,6 +795,7 @@ Use Amazon Redshift as a data platform
 Use a single target database schema in several data tasks
 Use library colors in standard edit mode
 User experience
+User experience improvements for the automation editor
 User-driven reloads
 Using Google Identity and OneLogin identity providers
 Version control with GitHub
