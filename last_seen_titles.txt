@@ -156,8 +156,10 @@ Data catalog integration with cloud hub
 Data consumer role for spaces
 Data flow: No-code data preparation for analytics and AI
 Data preparation in the hub
+Data product documentation for viewing or download
 Data products catalog
 Data products catalog now generally available
+Data products retain model when opened in Qlik Sense
 Data quality now available in pullup mode for MongoDB datasets
 Data quality validation rules
 Data window functions in engine load script
@@ -188,6 +190,7 @@ Dollar-sign expansion
 Download review feedback from Qlik Answers assistants
 Downloading as image for straight table in Visualization bundle
 Dynamic titles are supported when downloading or exporting sheets
+Easier way of documenting data products
 Easier way of documenting dataset descriptions
 Enable a navigation link to Talend Cloud
 Enable and disable autocomplete in script and expression editors
@@ -333,6 +336,7 @@ Layered label orientation with charts
 Layout container
 Layout container improvements
 Legal
+Leverage Qlik Talend Cloud rules in Talend Studio
 Leverage warehouse data ingested by third-party solutions
 Line
 Line chart shapes with labels and symbols
