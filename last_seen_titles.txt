@@ -78,6 +78,7 @@ Capacity-based pricing model extended to new Qlik Talend Cloud release
 Capture and share Insight Advisor usage feedback with app owners
 Catalog connectors for Application Automation
 Catalog connectors for Automations
+Catalog filter change:  Data to Datasets
 Catalog filtering
 Catalog improvements and new features
 Catalog profile improvements - new limitation
@@ -95,8 +96,10 @@ Chart in tooltip
 Chart level scripting
 Chart monitoring for Qlik Sense Mobile SaaS
 Chart monitoring now available for more visualization types
+Class balancing during experiment training
 Client-Managed — Analytics
 Client-Managed — Data Integration
+Code auto-completion and auto-formatting for increased developer productivity
 Collaborate on business logic in shared spaces
 Collaborate on load scripts in shared spaces
 Combo chart improvements
@@ -458,6 +461,7 @@ New algorithms for Qlik AutoML
 New algorithms for Qlik AutoML
 New and enhanced features in Qlik Talend Data Integration
 New and improved combo chart
+New app settings design
 New attributes added to the GetUserAttr function
 New authentication methods for Azure SQL database and Azure Synapse Analytics connectors
 New authoring experience in Qlik Cloud
@@ -537,6 +541,7 @@ New toolbar customization settings
 New user guide for creating inline loads
 New user role: Embedded Analytics User
 New variable options for including current state in bookmarks and reports
+New: Qlik Analytics Migration Tool (QAMT)
 Notes
 Notifications about data alerts
 Notifications for Application Automation events
