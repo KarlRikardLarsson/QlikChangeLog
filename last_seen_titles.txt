@@ -730,6 +730,7 @@ Support for Snowflake secure views
 Support for Unity Catalog in Databricks data connections
 Support for accessing ServiceNow via Direct Access gateway
 Support for additional ODBC and JDBC connection properties in the Snowflake target connector
+Support for changing Direct Access gateway settings in the Administration activity center
 Support for field-level lineage
 Support for iOS 15
 Support for native data or visualizations through Natural language API and Insight Advisor Chat
