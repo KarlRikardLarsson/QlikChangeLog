@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/148-qlik-embed-multi-tenant/
+https://qlik.dev/changelog/150-api-updates-reload-weight/
