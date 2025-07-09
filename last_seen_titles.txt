@@ -317,6 +317,7 @@ Insight Advisor Search
 Insight Advisor supports Portuguese with natural language questions
 Insight Advisor supports Spanish natural language insights
 Insight Advisor supports dollar-sign expansion
+Introducing Knowledge Marts
 Introducing Qlik Talend Data Integration
 Introducing Qlik Trust Score™ for measuring dataset trustworthiness
 Introducing Qlik conversational analytics in Microsoft Teams
