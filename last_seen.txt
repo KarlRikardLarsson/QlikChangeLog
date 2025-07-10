@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/150-api-updates-reload-weight/
+https://qlik.dev/changelog/152-platform-ops-connector/
