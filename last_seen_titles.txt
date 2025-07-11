@@ -307,6 +307,7 @@ Increased mobile app security
 Increased run timeout for Qlik Application Automation
 Increased run timeout for Qlik Automate
 Increased security in Google BigQuery and MongoDB connections
+Increases to maximum number of custom groups
 Indent rows setting in the new pivot table
 Insight Advisor
 Insight Advisor Chat
