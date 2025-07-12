@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/152-platform-ops-connector/
+https://qlik.dev/changelog/153-api-updates-sharing-tasks/
