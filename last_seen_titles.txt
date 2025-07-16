@@ -309,6 +309,7 @@ Increased run timeout for Qlik Automate
 Increased security in Google BigQuery and MongoDB connections
 Increases to maximum number of custom groups
 Indent rows setting in the new pivot table
+Inserting scripts within scripts
 Insight Advisor
 Insight Advisor Chat
 Insight Advisor Chat now supports Spanish
@@ -323,6 +324,7 @@ Introducing Qlik Talend Data Integration
 Introducing Qlik Trust Score™ for measuring dataset trustworthiness
 Introducing Qlik conversational analytics in Microsoft Teams
 Introducing Shared Automations
+Introducing new capabilities for the Qlik Predict connector in Qlik Automate
 Introducing public API for Direct Access gateway configurations
 Introducing support for projects in the Qlik Talend Cloud Data Integration connector in Qlik Application Automation
 Introducing support for projects in the Qlik Talend Cloud Data Integration connector in Qlik Automate
@@ -578,6 +580,7 @@ Partial data reload
 Performance improvements for the ODBC connectors
 Period over period analysis
 Period over period dashboards in Insight Advisor
+Permissions to control access to Notes
 Pivot table expand and collapse options
 Pivot table indicators
 PixelPerfect report authoring
@@ -697,6 +700,7 @@ Security enhancements for Qlik Sense Mobile SaaS
 Select locale for app creation
 Selection bar improvements
 Self-Service Scheduling – Task Chaining & Multi-Task Support
+Send more unique reports with each report task!
 ServiceNow connector for Qlik Application Automation now compatible with Qlik Cloud Government
 Set analysis
 Set expressions tutorial
