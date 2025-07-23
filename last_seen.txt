@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/153-api-updates-sharing-tasks/
+https://qlik.dev/changelog/155-deprecate-snake-case-oauth-client-events/
