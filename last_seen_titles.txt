@@ -789,6 +789,7 @@ Updates to Databricks MLflow connector
 Updates to Migration Center
 Updates to PostgreSQL
 Updates to Qlik Sense Mobile SaaS
+Updates to analytics connectors
 Updates to axis and value label styling in visualizations
 Updates to font styling for scatter plots and text & image objects
 Updates to font styling for tables and pivot table
