@@ -241,6 +241,7 @@ From QlikView
 From Stitch
 General Information on Cookies
 General styling of bundled charts
+Generate ML training reports
 Generate dynamic prediction dataset names with time-specific variables in Qlik AutoML
 Generic support for trusted OAuth clients
 GeoOperations INTABLE support for coordinate conversion
@@ -302,6 +303,7 @@ Improvements to the Snowflake connector
 Improvements to the advanced edit mode assets panel
 Improvements to the navigation menu
 Improving data asset management in the Management Console
+Include and reuse editable scripts
 Increase to the maximum file size
 Increased mobile app security
 Increased run timeout for Qlik Application Automation
@@ -677,6 +679,7 @@ Required update of Qlik DataTransfer
 Resource Center now available for Qlik Cloud Government
 Restore unsaved changes to Qlik Application Automation
 Restore unsaved changes to Qlik Automate
+Rollover and purging of replication log files
 Runtime evaluation option for actions
 SAML identity providers support
 SAP ODP connector
