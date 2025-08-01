@@ -530,6 +530,7 @@ New styling options for line charts
 New styling options for treemaps
 New tables are supported with the GitHub connector
 New targets for replication projects
+New task logging option
 New template for Application Automation: App evaluation
 New template for Automations: App evaluation
 New template in Application Automation: Store a simple multi-page PowerPoint report to Microsoft SharePoint
@@ -568,6 +569,7 @@ Okta connector for Qlik Automate
 On-Demand tabular reporting
 Onboarding analytics users
 Open AI embeddings connector
+Open Databricks datasets in Databricks
 OpenAI Analytics Connector
 OpenAI Chat Completion block
 OpenAI Connector for Application Automation
