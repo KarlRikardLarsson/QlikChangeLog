@@ -223,6 +223,7 @@ Expressions in field labels
 Extended DDL capture support to  PostgreSQL and Microsoft SQL Server
 Extended Data Quality computation for QVDs
 Extended Data Quality computation for QVDs now supported in Qlik Cloud Government
+Extended monitoring for scheduled CDC tasks
 FILTERS
 Favorites in the hub
 Feature flag opens QlikView apps in IE11 plug-in
@@ -433,7 +434,9 @@ New Direct Access gateway version (1.7.2)
 New Direct Access gateway version (1.7.3)
 New Direct Access gateway version (1.7.4)
 New Direct Access gateway version (1.7.5)
+New Direct Access gateway version (1.7.6)
 New DynamoDB Connector, ODBC-based
+New GenAI analytics connectors
 New Google Ads Connector
 New Google Analytics 4 Connector
 New KPIs for catalog items
@@ -683,6 +686,7 @@ Restore unsaved changes to Qlik Application Automation
 Restore unsaved changes to Qlik Automate
 Rollover and purging of replication log files
 Runtime evaluation option for actions
+SAML based IdP supports encrypted assertions
 SAML identity providers support
 SAP ODP connector
 SAP connector package updated
