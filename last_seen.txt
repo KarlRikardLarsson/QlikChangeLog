@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/155-deprecate-snake-case-oauth-client-events/
+https://qlik.dev/changelog/156-straight-table-goes-native/
