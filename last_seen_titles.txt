@@ -824,6 +824,7 @@ User experience
 User experience improvements for the automation editor
 User-driven reloads
 Using Google Identity and OneLogin identity providers
+Validation rules enrichment
 Validation rules enrichments
 Version control with GitHub
 Version control with GitHub now available in Qlik Cloud Government
