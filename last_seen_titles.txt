@@ -115,6 +115,7 @@ Consolidated SAP connectivity
 Context menu for visualizations
 Context menu updates
 Control chart animations
+Controlling when the table error handling policy is triggered
 Conversational analytics API
 Copy and paste style
 Copy cell value in Pivot
@@ -593,6 +594,7 @@ Pivot table indicators
 PixelPerfect report authoring
 PixelPerfect report authoring - refresh source data binding for new measures/dimensions
 PixelPerfect template editor improvements
+Preview data now includes column data types
 Preview new asset panel
 Print, subscribe, snapshot, and monitor with the new Pivot table
 Privacy Preference Center
@@ -737,6 +739,7 @@ Subscription to sheets - Preview button
 Support LOAD and STORE of Parquet files with nested data
 Support credential separation for ODBC data sources
 Support for AWS IAM credentials authorization with Amazon Redshift
+Support for JSON-to-JSON column mapping
 Support for Microsoft Fabric as a data pipeline target
 Support for OAuth in the Salesforce connector
 Support for SAP HANA as a backend database for the SAP Application connector
@@ -838,4 +841,5 @@ Visualization improvements
 Webhooks
 Webhooks in Qlik Application Automation
 Webhooks in Qlik Automate
+Window script function enhancements
 Zebra stripes in new straight table
