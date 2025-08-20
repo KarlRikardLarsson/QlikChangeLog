@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/159-platform-ops-connector/
+https://qlik.dev/changelog/160-api-updates-capacity-consumption-report/
