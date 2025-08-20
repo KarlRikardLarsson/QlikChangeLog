@@ -438,6 +438,7 @@ New Direct Access gateway version (1.7.5)
 New Direct Access gateway version (1.7.6)
 New DynamoDB Connector, ODBC-based
 New GenAI analytics connectors
+New GenAI models supported in OpenAI analytics connector
 New Google Ads Connector
 New Google Analytics 4 Connector
 New KPIs for catalog items
