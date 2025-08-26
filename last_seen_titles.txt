@@ -4,6 +4,7 @@ AI recommended relationships in Qlik Talend Cloud data models
 AI-based SQL Assistant
 API rate limiting enforcement
 AYLIEN text analysis data source
+About Qlik
 Action button: go to chart
 Action to set active cyclic dimension field
 Active chart and grid dimensions
@@ -601,6 +602,7 @@ Print, subscribe, snapshot, and monitor with the new Pivot table
 Privacy Preference Center
 Process data changes incrementally using the high watermark method
 Process type 2 dimensions and preserve change history in data marts
+Products
 Profile tile views added to catalog
 Provide app sheet usage data to customers
 Public collections
@@ -842,5 +844,6 @@ Visualization improvements
 Webhooks
 Webhooks in Qlik Application Automation
 Webhooks in Qlik Automate
+Why Qlik?
 Window script function enhancements
 Zebra stripes in new straight table
