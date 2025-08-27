@@ -253,6 +253,7 @@ Glossary enhancements on the Qlik helpsite
 Glossary export and import for Excel and CSV files
 Google Analytics 4 connector adds filter capabilities
 Google Cloud SQL for PostgreSQL as a source
+Governed Data Connection Management (New Security Scope)
 Graphical transformation flow designer
 Grid chart
 Group support for notes
@@ -760,6 +761,7 @@ Support for private connections in Qlik Cloud Data Integration
 Support for retrieving metadata from multiple tables in parallel
 Switching between tenants in the app
 Tab container
+Table Recipe: Interactive playground for single-table data preparation
 Table improvement
 Table improvements
 Table indicators in the new straight table
