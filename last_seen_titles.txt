@@ -2,6 +2,7 @@ AI processor for Snowflake
 AI processor for transformation flows
 AI recommended relationships in Qlik Talend Cloud data models
 AI-based SQL Assistant
+API for monitoring enhancements
 API rate limiting enforcement
 AYLIEN text analysis data source
 About Qlik
