@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/163-api-updates-automl-deprecations/
+https://qlik.dev/changelog/165-api-updates-di-projects-monitoring/
