@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/165-api-updates-di-projects-monitoring/
+https://qlik.dev/changelog/166-changes-to-events/
