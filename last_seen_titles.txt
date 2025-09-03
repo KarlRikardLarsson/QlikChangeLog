@@ -129,6 +129,7 @@ Create personalized straight tables with chart exploration
 Create pull requests in Qlik Talend Cloud pipelines
 Cross-project pipelines
 Current values displayed in variable dialog
+Custom CSS styling for sheets
 Custom Groups
 Custom SQL in Direct Query
 Custom SQL with incremental load
