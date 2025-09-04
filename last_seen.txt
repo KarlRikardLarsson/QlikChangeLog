@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/166-changes-to-events/
+https://qlik.dev/changelog/167-changes-to-reload-log/
