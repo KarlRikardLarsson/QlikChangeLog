@@ -661,6 +661,7 @@ Qlik Talend Data Integration: Physical objects and data preview
 Qlik Trust Score™ for AI
 Qlik Trust Score™ for AI-readiness
 Qlik Trust Score™ historization
+Qlik Trust Score™ history with graphical navigation
 Qlik add-in for Microsoft Excel - optimized experience for changing source app
 Qlik has achieved updated or new certifications related to Qlik Cloud
 QlikView to Qlik Cloud Migration
