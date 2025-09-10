@@ -327,6 +327,7 @@ Insight Advisor Search
 Insight Advisor supports Portuguese with natural language questions
 Insight Advisor supports Spanish natural language insights
 Insight Advisor supports dollar-sign expansion
+Introducing Block Search in the Qlik Automate Editor
 Introducing Knowledge Marts
 Introducing Qlik Talend Data Integration
 Introducing Qlik Trust Score™ for measuring dataset trustworthiness
@@ -410,6 +411,7 @@ Mutual Information for Key Driver Analysis
 Native JSON Support for Qlik Sense
 Native support for regular expressions
 Natural language insights supported for more analysis types
+Navigation bar search now supports semantic search for Qlik Analytics apps
 Navigation enhancements for user support and learning
 Navigation menu
 Nebula extensions for Qlik Sense
@@ -440,6 +442,7 @@ New Direct Access gateway version (1.7.3)
 New Direct Access gateway version (1.7.4)
 New Direct Access gateway version (1.7.5)
 New Direct Access gateway version (1.7.6)
+New Direct Access gateway version (1.7.7)
 New DynamoDB Connector, ODBC-based
 New GenAI analytics connectors
 New GenAI models supported in OpenAI analytics connector
@@ -698,6 +701,7 @@ Runtime evaluation option for actions
 SAML based IdP supports encrypted assertions
 SAML identity providers support
 SAP ODP connector
+SAP ODP filtering on data source
 SAP connector package updated
 SHAP importance datasets supported
 SMTP server configuration
