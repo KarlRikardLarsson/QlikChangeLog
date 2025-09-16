@@ -523,6 +523,7 @@ New navigation top bar and toolbar
 New notification options for administrators
 New options for straight table data download
 New pane for monitoring capacity consumption in the Management Console
+New permissions to control access to Qlik Predict
 New pivot table
 New project level data view
 New project pipeline view in Qlik Cloud Data Integration
@@ -652,6 +653,7 @@ Qlik Data Gateway - Direct Access
 Qlik Data Gateway - Direct Access updates
 Qlik Forts end of life
 Qlik Lineage Connectors
+Qlik Open Lakehouse
 Qlik Platform Operations connector for Application Automation updated
 Qlik Platform Operations connector for Automations updated
 Qlik Reporting Service API for Qlik Cloud Government
@@ -765,6 +767,7 @@ Support for iOS 15
 Support for native data or visualizations through Natural language API and Insight Advisor Chat
 Support for period-over-period analysis in Insight Advisor Chat
 Support for private connections in Qlik Cloud Data Integration
+Support for registering JSON columns in pipeline projects
 Support for retrieving metadata from multiple tables in parallel
 Switching between tenants in the app
 Tab container
