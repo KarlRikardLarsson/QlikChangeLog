@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/167-changes-to-reload-log/
+https://qlik.dev/changelog/168-qlik-embed-analytics-snapshot/
