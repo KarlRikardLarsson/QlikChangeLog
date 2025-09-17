@@ -616,6 +616,7 @@ Public collections
 Public monitored charts
 Publish app from a copy of original app
 Publishing dataset and field level lineage
+Qlik Analytics Migration Tool – v2.0.0 Release
 Qlik Anonymous Access
 Qlik Answers
 Qlik Answers support for Google Drive and OneDrive connections
