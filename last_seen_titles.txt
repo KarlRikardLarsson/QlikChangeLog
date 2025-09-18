@@ -199,6 +199,7 @@ Downloading as image for straight table in Visualization bundle
 Dynamic titles are supported when downloading or exporting sheets
 Easier way of documenting data products
 Easier way of documenting dataset descriptions
+Easier way of documenting dataset descriptions via GenAI now includes fields
 Enable a navigation link to Talend Cloud
 Enable and disable autocomplete in script and expression editors
 Enable webhooks for all users and allow event filtering
