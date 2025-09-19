@@ -190,6 +190,7 @@ Direct Query now supports Amazon Redshift
 Direct Query now supports Google BigQuery
 Direct Query now supports searching in listboxes
 Direct Query powers SQL pushdown in Snowflake
+Direct Query support for layout containers, lines, and text objects from the Dashboard bundle
 Direct Query supports new data connection types
 Distribute chart images through Qlik Application Automation
 Distribute chart images through Qlik Automate
@@ -266,6 +267,7 @@ Hidden sheets
 Hide or show measures in a bar chart based on conditions
 Hide or show measures in a line chart based on conditions
 Hierarchical data file management
+Highlight selected field in data asset panel of the straight table
 History chart presentation in Mobile
 Hosting expands to Singapore
 Images in straight tables
