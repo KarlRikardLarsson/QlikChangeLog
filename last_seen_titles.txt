@@ -408,6 +408,7 @@ More table improvements
 More values shown in the Catalog Most common values frequency card
 Multi KPI sunset
 Multi-step alerting conditions
+Multi-template report tasks
 Multiple Models in ML Deployment
 Multitenant provisioning in Qlik Cloud
 Mutual Information for Key Driver Analysis
