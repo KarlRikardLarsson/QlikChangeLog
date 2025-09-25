@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/168-qlik-embed-analytics-snapshot/
+https://qlik.dev/changelog/169-platform-ops-connector/
