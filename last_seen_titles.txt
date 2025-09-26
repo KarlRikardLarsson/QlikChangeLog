@@ -580,6 +580,7 @@ OAuth support for Databricks target connector
 OAuth: Limiting access by scopes
 ODBC database connector performance increase
 OData connector can access JSON data
+OData-Compliant APIs for data products
 Office 365 SharePoint Metadata Connector supports new tables in Data manager
 Okta connector for Qlik Application Automation
 Okta connector for Qlik Automate
@@ -632,6 +633,7 @@ Qlik Application Automation packaging shifts to third-party runs
 Qlik Application Automation templates
 Qlik AutoML SHAP feature importance now available in multiclass experiments
 Qlik Automate Templates
+Qlik Automate now Supports Reload Weight and Reload Variable
 Qlik Automate packaging shifts to third-party runs
 Qlik Automate templates
 Qlik Cloud
@@ -859,6 +861,7 @@ View visualizations as tables
 Viewing notes linked to charts
 Visualization improvements
 Webhooks
+Webhooks for Qlik Talend Cloud Pipelines now available in Qlik Automate
 Webhooks in Qlik Application Automation
 Webhooks in Qlik Automate
 Why Qlik?
