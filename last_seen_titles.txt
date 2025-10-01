@@ -552,6 +552,7 @@ New template for Application Automation: App evaluation
 New template for Automations: App evaluation
 New template in Application Automation: Store a simple multi-page PowerPoint report to Microsoft SharePoint
 New template in Automations: Store a simple multi-page PowerPoint report to Microsoft SharePoint
+New template to automate deployment of the Data Capacity Reporting app with Qlik Automate
 New templates and connectors in Application Automation
 New templates and connectors in Automations
 New templates and updates to connectors in Application Automation
