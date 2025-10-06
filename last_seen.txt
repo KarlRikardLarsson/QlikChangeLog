@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/169-platform-ops-connector/
+https://qlik.dev/changelog/171-api-reference-js-examples-update/
