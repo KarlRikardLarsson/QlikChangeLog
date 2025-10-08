@@ -63,6 +63,7 @@ Assistant review page
 Auto-generate an analysis using Insight Advisor Analysis Types
 AutoML Access Controls
 AutoML Schedule dataset predictions
+Automatic mapping of JSON data types to compatible targets
 Automatic token refresh for connectors
 Automation for Business Glossary
 Background color opacity
@@ -206,6 +207,7 @@ Enable and disable autocomplete in script and expression editors
 Enable webhooks for all users and allow event filtering
 Enforcement of third-party overages for Qlik Application Automation
 Enforcement of third-party overages for Qlik Automate
+Enhanced datetime precision control
 Enhanced opening experience for analytic apps
 Enhanced support for connection-based datasets in data preparation and applications
 Enhanced support for metadata changes in replication and lake landing tasks
@@ -474,9 +476,11 @@ New Qlik Platform Operations Connector for Qlik Automate
 New Qlik Sense Connector for Databricks
 New Qlik Talend Data Integration landing page
 New SAP ODP Connector
+New Security Scope to govern Direct Access gateway
 New Starter edition with simplified UX
 New Straight table becomes default
 New UI settings
+New access controls for Qlik Reporting Service
 New access controls for sharing notes
 New actions for button object
 New algorithms for Qlik AutoML
@@ -621,6 +625,7 @@ Provide app sheet usage data to customers
 Public collections
 Public monitored charts
 Publish app from a copy of original app
+Publish sheet by drag and drop and remember expand state
 Publishing dataset and field level lineage
 Qlik Analytics Migration Tool – v2.0.0 Release
 Qlik Anonymous Access
@@ -736,9 +741,11 @@ Send more unique reports with each report task!
 ServiceNow connector for Qlik Application Automation now compatible with Qlik Cloud Government
 Set analysis
 Set expressions tutorial
+Shapes coming to bar, combo and scatter chart, now also with areas
 Shared data space
 Sheet navigation buttons moved
 Sheets and bookmarks accessible directly in app toolbar
+Show all
 Show all labels in line graph
 Simplified authoring experience in Qlik Cloud: Full availability
 Simplified metadata change experience
@@ -852,6 +859,7 @@ User-driven reloads
 Using Google Identity and OneLogin identity providers
 Validation rules enrichment
 Validation rules enrichments
+Validation rules suggestions in Qlik Talend Cloud
 Version control with GitHub
 Version control with GitHub now available in Qlik Cloud Government
 Video player
