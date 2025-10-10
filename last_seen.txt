@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/171-api-reference-js-examples-update/
+https://qlik.dev/changelog/172-api-updates-data-source-settings/
