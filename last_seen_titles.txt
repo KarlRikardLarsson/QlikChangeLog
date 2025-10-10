@@ -154,6 +154,7 @@ Dark mode base map
 Data Condition Evaluation history
 Data Flow: Enhanced expression editor in Calculate fields processor
 Data Flow: Expanded processors with RegEx support, multi-output forks, and number conversion
+Data Flow: New Pivot processor and enhanced processors (Dates, Window)
 Data Integration merges Prepare and Sync into a single Prepare command
 Data Integration: deleting projects
 Data Lakehouse capabilities for Snowflake projects
