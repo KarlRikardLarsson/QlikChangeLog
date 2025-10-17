@@ -224,6 +224,7 @@ Example questions in Insight Advisor
 Execution token renewal for triggered automations
 Expanded Data Quality Computation for broader data sources
 Expanded region support for Qlik Answers
+Explore the Qlik Product Recap!
 Export apps from Managed Spaces
 Exporting and importing data projects
 Exporting and importing data projects now supported in Qlik Cloud Government
@@ -398,6 +399,7 @@ Migrate QlikView Server bookmarks
 Migrating from Qlik Sense Client-Managed to Qlik Cloud
 Migrating to Qlik Cloud Analytics
 Migrating to Qlik Talend Cloud
+Mobile app renamed to Qlik Analytics
 Model Approval Workflow
 Model monitoring in AutoML
 Modifiers and expression based text styling in the new straight table
@@ -696,6 +698,7 @@ Refine your in-app subscriptions with dynamic expressions
 Refresh and change dataset for new AutoML experiment version
 Refresh dataset metadata in the catalog
 Refreshing metadata
+Register for the On-Demand Webinar!
 Registering data loaded by Stitch
 Relative importance analysis
 Release notes for administrators
