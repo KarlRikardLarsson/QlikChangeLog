@@ -343,6 +343,7 @@ Introducing Qlik conversational analytics in Microsoft Teams
 Introducing Shared Automations
 Introducing new capabilities for the Qlik Predict connector in Qlik Automate
 Introducing public API for Direct Access gateway configurations
+Introducing public API to enable and disable access to data sources by tenant
 Introducing support for projects in the Qlik Talend Cloud Data Integration connector in Qlik Application Automation
 Introducing support for projects in the Qlik Talend Cloud Data Integration connector in Qlik Automate
 Introducing the new Qlik Answers connector for Qlik Application Automation
