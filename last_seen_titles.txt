@@ -418,6 +418,7 @@ Multi-step alerting conditions
 Multi-template report tasks
 Multiple Models in ML Deployment
 Multitenant provisioning in Qlik Cloud
+Multivariate time series forecasting
 Mutual Information for Key Driver Analysis
 Native JSON Support for Qlik Sense
 Native support for regular expressions
@@ -685,6 +686,7 @@ Qlik Trust Score™ for AI
 Qlik Trust Score™ for AI-readiness
 Qlik Trust Score™ historization
 Qlik Trust Score™ history with graphical navigation
+Qlik Trust Score™ is now available at data product level
 Qlik add-in for Microsoft Excel - optimized experience for changing source app
 Qlik has achieved updated or new certifications related to Qlik Cloud
 QlikView to Qlik Cloud Migration
