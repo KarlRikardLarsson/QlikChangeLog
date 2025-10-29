@@ -362,6 +362,7 @@ Layout container
 Layout container improvements
 Legal
 Leverage Qlik Talend Cloud rules in Talend Studio
+Leverage dates and time duration in validation rules
 Leverage warehouse data ingested by third-party solutions
 Line
 Line chart shapes with labels and symbols
@@ -636,6 +637,7 @@ Publishing dataset and field level lineage
 Qlik Analytics Migration Tool – v2.0.0 Release
 Qlik Anonymous Access
 Qlik Answers
+Qlik Answers search enhancements
 Qlik Answers support for Google Drive and OneDrive connections
 Qlik Answers upgrade to Claude Sonnet 3.5
 Qlik Answers upgrade to Cohere Rerank 3.5
