@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/174-automation-connectors-api/
+https://qlik.dev/changelog/175-platform-ops-connector/
