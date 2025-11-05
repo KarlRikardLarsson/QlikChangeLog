@@ -57,6 +57,7 @@ App size information added to app details
 Application Automation reports can contain sheets from different Qlik Cloud apps
 Application chaining
 Apply a unique color setting for each measure in a combo chart
+Area for line coming to combo chart
 Assign a Server-Side Encryption (SSE) header value to Amazon S3 connector
 Assign roles to users and groups
 Assistant customizations
@@ -196,6 +197,7 @@ Direct Query now supports searching in listboxes
 Direct Query powers SQL pushdown in Snowflake
 Direct Query support for layout containers, lines, and text objects from the Dashboard bundle
 Direct Query supports new data connection types
+Dismissible warning and info dialogs in applications
 Distribute chart images through Qlik Application Automation
 Distribute chart images through Qlik Automate
 Dollar-sign expansion
@@ -279,6 +281,7 @@ Hosting expands to Singapore
 Images in straight tables
 Images in tables
 Impact analysis
+Import a project from version control in Pipelines
 Important change to JWT authorization capabilities with tenants
 Improve content consumption with a tenant custom home
 Improve data discovery and collaboration with Qlik Cloud Business Glossary
@@ -342,6 +345,7 @@ Introducing Qlik Talend Data Integration
 Introducing Qlik Trust Score™ for measuring dataset trustworthiness
 Introducing Qlik conversational analytics in Microsoft Teams
 Introducing Shared Automations
+Introducing concurrent automation runs
 Introducing new capabilities for the Qlik Predict connector in Qlik Automate
 Introducing public API for Direct Access gateway configurations
 Introducing public API to enable and disable access to data sources by tenant
@@ -354,6 +358,7 @@ Key Driver Analysis
 Key pair support added for OpenID Connect Identity Providers
 Keyboard navigation in view data mode
 Knowledge base Summary page
+Knowledge marts are now supported on Databricks
 Label coloring with map chart
 Landing reload selected tables
 Landing transformations for Qlik Talend Data Integration sources
@@ -484,6 +489,7 @@ New Qlik Platform Operations Connector for Qlik Automate
 New Qlik Sense Connector for Databricks
 New Qlik Talend Data Integration landing page
 New SAP ODP Connector
+New SQL transformation UI
 New Security Scope to govern Direct Access gateway
 New Starter edition with simplified UX
 New Straight table becomes default
