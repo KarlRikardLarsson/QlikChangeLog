@@ -655,6 +655,7 @@ Qlik Application Automation packaging shifts to third-party runs
 Qlik Application Automation templates
 Qlik AutoML SHAP feature importance now available in multiclass experiments
 Qlik Automate Templates
+Qlik Automate connector updates
 Qlik Automate now Supports Reload Weight and Reload Variable
 Qlik Automate packaging shifts to third-party runs
 Qlik Automate templates
