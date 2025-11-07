@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/175-platform-ops-connector/
+https://qlik.dev/changelog/176-qlik-dev-search-filters/
