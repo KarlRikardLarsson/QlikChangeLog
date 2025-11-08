@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/176-qlik-dev-search-filters/
+https://qlik.dev/changelog/177-banners-api/
