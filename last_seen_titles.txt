@@ -212,6 +212,7 @@ Enable and disable autocomplete in script and expression editors
 Enable webhooks for all users and allow event filtering
 Enforcement of third-party overages for Qlik Application Automation
 Enforcement of third-party overages for Qlik Automate
+Enhanced Webhook Security
 Enhanced datetime precision control
 Enhanced opening experience for analytic apps
 Enhanced support for connection-based datasets in data preparation and applications
@@ -462,6 +463,7 @@ New Direct Access gateway version (1.7.4)
 New Direct Access gateway version (1.7.5)
 New Direct Access gateway version (1.7.6)
 New Direct Access gateway version (1.7.7)
+New Direct Access gateway version (1.7.8)
 New DynamoDB Connector, ODBC-based
 New GenAI analytics connectors
 New GenAI models supported in OpenAI analytics connector
