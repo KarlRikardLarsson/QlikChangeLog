@@ -13,7 +13,7 @@ if not chat_webhook:
 
 # Optional: exclude generic headings
 ignore_keywords = [
-    "help", "resources", "company", "legal", "cookie", "did this page", "filters", "qlik cloud"
+    "help", "resources", "company", "legal", "cookie", "did this page", "filters"
 ]
 
 async def main():
