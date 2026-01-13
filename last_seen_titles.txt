@@ -1,5 +1,7 @@
+AI assistants are now supported in two additional Qlik Cloud regions
 AI processor for Snowflake
 AI processor for transformation flows
+AI processor for transformation flows now supported in Qlik Cloud Government
 AI recommended relationships in Qlik Talend Cloud data models
 AI-based SQL Assistant
 API for monitoring enhancements
@@ -63,11 +65,13 @@ Assign roles to users and groups
 Assistant customizations
 Assistant review page
 Auto-generate an analysis using Insight Advisor Analysis Types
+Auto-generated sheet thumbnails in Qlik Cloud
 AutoML Access Controls
 AutoML Schedule dataset predictions
 Automatic mapping of JSON data types to compatible targets
 Automatic token refresh for connectors
 Automation for Business Glossary
+Automations reports can contain sheets from different Qlik Cloud apps
 Background color opacity
 Bars on secondary axis in combo chart
 Binary loads from spaces
@@ -101,6 +105,7 @@ Chart in tooltip
 Chart level scripting
 Chart monitoring for Qlik Sense Mobile SaaS
 Chart monitoring now available for more visualization types
+Charts reorganization
 Class balancing during experiment training
 Client-Managed — Analytics
 Client-Managed — Data Integration
@@ -110,6 +115,7 @@ Collaborate on load scripts in shared spaces
 Combo chart improvements
 Company
 Comparing app performance evaluations
+Configure SMTP sender name in Qlik Cloud
 Configure a Microsoft 365 email provider using OAuth2 for Qlik Cloud tenant
 Connect to Azure OpenAI Service
 Connect to cloud data warehouses and storage via a proxy server
@@ -136,6 +142,7 @@ Custom CSS styling for sheets
 Custom Groups
 Custom SQL in Direct Query
 Custom SQL with incremental load
+Custom announcements in Qlik Cloud
 Custom chart periods
 Custom group support for Section Access in Qlik Cloud Analytics
 Custom logos in apps and revised media library
@@ -144,6 +151,7 @@ Custom name support in the Get Chart Image block in Qlik Automate
 Custom parameters for Execute automation action in buttons
 Custom security roles
 Custom tooltips for KPIs
+Custom width for bar chart with continuous axis
 Customizable data quality in Qlik Talend Data Integration
 Customizable hub landing page
 Customize Qlik Trust Score™ display
@@ -155,8 +163,10 @@ DID THIS PAGE HELP YOU?
 Dark mode base map
 Data Condition Evaluation history
 Data Flow: Enhanced expression editor in Calculate fields processor
+Data Flow: Enhanced troubleshooting and productivity features
 Data Flow: Expanded processors with RegEx support, multi-output forks, and number conversion
 Data Flow: New Pivot processor and enhanced processors (Dates, Window)
+Data Flow: New Sample processor and more flexible Aggregate and Qlik processors
 Data Integration merges Prepare and Sync into a single Prepare command
 Data Integration: deleting projects
 Data Lakehouse capabilities for Snowflake projects
@@ -166,13 +176,16 @@ Data Services: Cloud entitlement support
 Data catalog integration with cloud hub
 Data consumer role for spaces
 Data flow: No-code data preparation for analytics and AI
+Data marketplace, Catalog, and Data quality  now supported in Qlik Cloud Government
 Data preparation in the hub
 Data product documentation for viewing or download
 Data products catalog
 Data products catalog now generally available
+Data products retain model when opened in Qlik Cloud Analytics
 Data products retain model when opened in Qlik Sense
 Data quality now available in pullup mode for MongoDB datasets
 Data quality validation rules
+Data quality validation rules are now available in Qlik Cloud Government
 Data window functions in engine load script
 Databricks ODBC Connector has  OAuth support and improved interface
 Databricks connector gets updated authentication options
@@ -183,6 +196,7 @@ Delete File block for the GitHub connector
 Deleting Qlik Cloud tenants
 Deleting shared or managed spaces
 Demo apps included in Qlik Sense SaaS
+Deprecated chart events available
 Deprecation of bar & area chart from the visualization bundle
 Deprecation of the Share button
 Deprecation of the evaluations API
@@ -203,6 +217,7 @@ Distribute chart images through Qlik Automate
 Dollar-sign expansion
 Download review feedback from Qlik Answers assistants
 Downloading as image for straight table in Visualization bundle
+Dynamic reload engines for all reloads
 Dynamic titles are supported when downloading or exporting sheets
 Easier way of documenting data products
 Easier way of documenting dataset descriptions
@@ -213,7 +228,9 @@ Enable webhooks for all users and allow event filtering
 Enforcement of third-party overages for Qlik Application Automation
 Enforcement of third-party overages for Qlik Automate
 Enhanced Webhook Security
+Enhanced accuracy for knowledge bases
 Enhanced datetime precision control
+Enhanced monitored charts in Qlik Cloud
 Enhanced opening experience for analytic apps
 Enhanced support for connection-based datasets in data preparation and applications
 Enhanced support for metadata changes in replication and lake landing tasks
@@ -221,13 +238,17 @@ Enhancements and resolved issues in Qlik Talend Data Integration
 Enhancements to Insight Advisor Chat
 Enhancements to Qlik's Customer Managed Keys (CMK)
 Enhancements to Qlik’s Customer Managed Keys (CMK)
+Enhancements to multivariate time series forecasting
 Entering database names manually instead of selecting from a list
 Enterprise access control
 Evaluate app performance for on-premise apps in your cloud tenant
+Evaluate large app performance in Qlik Cloud
 Example questions in Insight Advisor
 Execution token renewal for triggered automations
 Expanded Data Quality Computation for broader data sources
+Expanded authentication and encryption options for Amazon S3 target
 Expanded region support for Qlik Answers
+Expanded validation capabilities for rules
 Explore the Qlik Product Recap!
 Export apps from Managed Spaces
 Exporting and importing data projects
@@ -239,6 +260,7 @@ Extended DDL capture support to  PostgreSQL and Microsoft SQL Server
 Extended Data Quality computation for QVDs
 Extended Data Quality computation for QVDs now supported in Qlik Cloud Government
 Extended monitoring for scheduled CDC tasks
+External datasets from file-based sources
 FILTERS
 Favorites in the hub
 Feature flag opens QlikView apps in IE11 plug-in
@@ -268,9 +290,12 @@ Google Analytics 4 connector adds filter capabilities
 Google Cloud SQL for PostgreSQL as a source
 Governed Data Connection Management (New Security Scope)
 Graphical transformation flow designer
+Graphical transformation flow designer now supported in Qlik Cloud Government
 Grid chart
 Group support for notes
+Grouping bookmarks
 HTML reports for the inbox!
+HTML reports in Qlik Automate
 Help Resources
 Hidden sheets
 Hide or show measures in a bar chart based on conditions
@@ -322,6 +347,7 @@ Improvements to the Snowflake connector
 Improvements to the advanced edit mode assets panel
 Improvements to the navigation menu
 Improving data asset management in the Management Console
+In-app reporting now supported in Qlik Cloud Government
 Include and reuse editable scripts
 Increase to the maximum file size
 Increased mobile app security
@@ -341,11 +367,13 @@ Insight Advisor supports Portuguese with natural language questions
 Insight Advisor supports Spanish natural language insights
 Insight Advisor supports dollar-sign expansion
 Introducing Block Search in the Qlik Automate Editor
+Introducing Data Quality support in the new Qlik Cloud Catalog connector in Qlik Automate
 Introducing Knowledge Marts
 Introducing Qlik Talend Data Integration
 Introducing Qlik Trust Score™ for measuring dataset trustworthiness
 Introducing Qlik conversational analytics in Microsoft Teams
 Introducing Shared Automations
+Introducing attachment support for the Microsoft Outlook connector in Qlik Automate
 Introducing concurrent automation runs
 Introducing new capabilities for the Qlik Predict connector in Qlik Automate
 Introducing public API for Direct Access gateway configurations
@@ -367,6 +395,7 @@ Large apps replace Dedicated Capacity and Expanded apps
 Layered label orientation with charts
 Layout container
 Layout container improvements
+Learn in Qlik Cloud
 Legal
 Leverage Qlik Talend Cloud rules in Talend Studio
 Leverage dates and time duration in validation rules
@@ -386,6 +415,7 @@ Machine learning with Qlik AutoML
 Machine learning with Qlik AutoML
 Machine-to-Machine (M2M) enabled OAuth clients
 Mail connector for Qlik Application Automation now supported in Qlik Cloud Government
+Mail connector for Qlik Automate now supported in Qlik Cloud Government
 Manage data spaces outside of the Management Console
 Manage load scripts history in Data load editor
 Managing data assets
@@ -404,6 +434,7 @@ Microsoft SharePoint as Storage Provider in Qlik Sense SaaS
 Microsoft connectors for Qlik Application Automation now compatible with Microsoft Office 365 Government Community Cloud (GCC)
 Microsoft connectors for Qlik Application Automation now supported in Qlik Cloud Government
 Microsoft connectors for Qlik Automate now compatible with Microsoft Office 365 Government Community Cloud (GCC)
+Microsoft connectors for Qlik Automate now supported in Qlik Cloud Government
 Migrate QlikView Server bookmarks
 Migrating from Qlik Sense Client-Managed to Qlik Cloud
 Migrating to Qlik Cloud Analytics
@@ -428,6 +459,7 @@ Multiple Models in ML Deployment
 Multitenant provisioning in Qlik Cloud
 Multivariate time series forecasting
 Mutual Information for Key Driver Analysis
+Name updates for Qlik Cloud features
 Native JSON Support for Qlik Sense
 Native support for regular expressions
 Natural language insights supported for more analysis types
@@ -449,6 +481,7 @@ New Business Logic options for customization in Insight Advisor
 New Customer Managed Key (CMK) blocks for Qlik Platform Operations connector in Qlik Application Automation
 New Customer Managed Key (CMK) blocks for Qlik Platform Operations connector in Qlik Automate
 New Customer Managed Key (CMK) provider blocks for Qlik Cloud connector in Qlik Application Automation
+New Customer Managed Key (CMK) provider blocks for Qlik Cloud connector in Qlik Automate
 New Data integration project APIs
 New Databricks MLflow Connector
 New Dates processor in transformation flows.
@@ -464,6 +497,7 @@ New Direct Access gateway version (1.7.5)
 New Direct Access gateway version (1.7.6)
 New Direct Access gateway version (1.7.7)
 New Direct Access gateway version (1.7.8)
+New Direct Access gateway version (1.7.9)
 New DynamoDB Connector, ODBC-based
 New GenAI analytics connectors
 New GenAI models supported in OpenAI analytics connector
@@ -481,6 +515,8 @@ New Qlik Application Automation connectors for Qlik Cloud Government
 New Qlik Application Automation toolbar in Editor view
 New Qlik AutoML connector
 New Qlik Automate connector
+New Qlik Automate connector for Qlik Cloud Government
+New Qlik Automate connectors for Qlik Cloud Government
 New Qlik Automate toolbar in Editor view
 New Qlik Cloud Government support for data integration and analytics
 New Qlik Data Gateway - Data Movement version
@@ -506,6 +542,7 @@ New and improved combo chart
 New app settings design
 New attributes added to the GetUserAttr function
 New authentication methods for Azure SQL database and Azure Synapse Analytics connectors
+New authentication option for Google BigQuery connector
 New authoring experience in Qlik Cloud
 New automation templates: Automatically install and maintain the Qlik Cloud Monitoring apps
 New blocks for Talend Cloud connector in Qlik Application Automation
@@ -558,6 +595,7 @@ New screen reader support
 New script function integrates tenant attributes
 New script function integrates user attributes
 New security rules
+New security scope to govern GeoOperations
 New security scope to govern Insight Advisor
 New service added for Amazon Comprehend
 New space role that allows creating and managing schedules in managed spaces
@@ -588,6 +626,7 @@ New user guide for creating inline loads
 New user role: Embedded Analytics User
 New variable options for including current state in bookmarks and reports
 New: Qlik Analytics Migration Tool (QAMT)
+New: Write Table in Qlik Cloud Analytics
 Notes
 Notifications about data alerts
 Notifications for Application Automation events
@@ -644,7 +683,9 @@ Public monitored charts
 Publish app from a copy of original app
 Publish sheet by drag and drop and remember expand state
 Publishing dataset and field level lineage
+Qlik Analytics Migration Tool now available in Qlik Cloud Government
 Qlik Analytics Migration Tool – v2.0.0 Release
+Qlik Analytics Migration Tool: November 2025 release
 Qlik Anonymous Access
 Qlik Answers
 Qlik Answers search enhancements
@@ -670,13 +711,20 @@ Qlik Cloud Data Integration: Expanded support for private connections
 Qlik Cloud Data Integration: Replication and lake landing support
 Qlik Cloud Data Integration: Support for three new replication targets
 Qlik Cloud Government achieves new governmental certifications
+Qlik Cloud Government expands to the U.S. Department of Defense (DoD) and achieves new governmental authorization, DISA IL4
+Qlik Cloud Government now supports OData-Compliant APIs for data products
 Qlik Cloud Government now supports Qlik Application Automation
+Qlik Cloud Government now supports Qlik Automate
 Qlik Cloud Government now supports Qlik Data Gateway - Direct Access version 1.6.3
 Qlik Cloud Government now supports Qlik Lineage Connectors
+Qlik Cloud Government now supports the public API to enable and disable access to data sources by tenant
 Qlik Cloud Government receives FedRAMP designation
 Qlik Cloud Tabular Reporting
 Qlik Cloud enabled to support HIPAA compliance
+Qlik Cloud expands to Brazil
+Qlik Cloud expands to France
 Qlik Cloud expands to India
+Qlik Cloud expands to Israel
 Qlik Cloud expands to Middle East
 Qlik Cloud reporting with PowerPoint
 Qlik Cloud welcome tour
@@ -693,6 +741,7 @@ Qlik Sense Enterprise SaaS - Government (US) supports Customer Managed Keys
 Qlik Sense self-service reporting
 Qlik SenseGeoOperations
 Qlik Talend Cloud Data Integration improvements
+Qlik Talend CloudData Integration improvements
 Qlik Talend Data Integration improvements
 Qlik Talend Data Integration: Physical objects and data preview
 Qlik Trust Score™ for AI
@@ -718,6 +767,7 @@ Register for the On-Demand Webinar!
 Registering data loaded by Stitch
 Relative importance analysis
 Release notes for administrators
+Reload task datasets via API
 Reload-time variable updates and variable constraints
 Reloading tables
 Removal notice of event from audit service in Qlik Cloud
@@ -729,6 +779,7 @@ Report task cycling
 Report task history
 Reporting and PDF improvements
 Required update of Qlik DataTransfer
+Resizable properties panel
 Resource Center now available for Qlik Cloud Government
 Restore unsaved changes to Qlik Application Automation
 Restore unsaved changes to Qlik Automate
@@ -738,7 +789,10 @@ SAML based IdP supports encrypted assertions
 SAML identity providers support
 SAP ODP connector
 SAP ODP filtering on data source
+SAP Report Connector integrated in Qlik Cloud Analytics
+SAP Report Connector now supported in Qlik Cloud Government and Qlik Cloud Government - DoD
 SAP connector package updated
+SAP NetWeaver connector updated to v8.3.0 (Connector and Transports)
 SHAP importance datasets supported
 SMTP server configuration
 SQL Expression processor
@@ -749,6 +803,8 @@ Scatter plots can display larger datasets
 Scatterplot now supports regression lines
 Scheduling alert evaluations
 Schema evolution improvements
+Script-only variables and drop mapping tables
+Seamless application sharing and access requests in Qlik Cloud
 Search and replace in expression editor
 Section access apps in Insight Advisor Chat
 Section access behavior
@@ -761,11 +817,14 @@ Self-Service Scheduling – Task Chaining & Multi-Task Support
 Semantic types impact analysis
 Send more unique reports with each report task!
 ServiceNow connector for Qlik Application Automation now compatible with Qlik Cloud Government
+ServiceNow connector for Qlik Automate now compatible with Qlik Cloud Government
 Set analysis
 Set expressions tutorial
 Shapes coming to bar, combo and scatter chart, now also with areas
+Shared Automations now supported in Qlik Cloud Government and Qlik Cloud Government - DoD
 Shared data space
 Sheet navigation buttons moved
+Sheet templates in Qlik Cloud
 Sheets and bookmarks accessible directly in app toolbar
 Show all
 Show all labels in line graph
@@ -775,7 +834,9 @@ Snowflake connectivity enhancements
 Snowflake target connections in Data Integration now  support key pair authentication
 Snowpipe Streaming support
 Straight table styling improvements
+Straight table: Quick sort, search, and cyclic dimension change
 Straight table: multi-page download to PDF
+Strengthen security with IP allowlists in Qlik Cloud
 Structure Direct Query apps with script variables
 Styling Grid, Funnel & Sankey charts
 Styling for KPIs
@@ -789,16 +850,19 @@ Subscription to sheets - Preview button
 Support LOAD and STORE of Parquet files with nested data
 Support credential separation for ODBC data sources
 Support for AWS IAM credentials authorization with Amazon Redshift
+Support for Data Movement gateway with Qlik Cloud Government DoD
 Support for JSON-to-JSON column mapping
 Support for Microsoft Fabric as a data pipeline target
 Support for OAuth in the Salesforce connector
 Support for SAP HANA as a backend database for the SAP Application connector
+Support for SAP OData data source
 Support for SQL Server target in Qlik Cloud Data Integration
 Support for Snowflake secure views
 Support for Unity Catalog in Databricks data connections
 Support for accessing ServiceNow via Direct Access gateway
 Support for additional ODBC and JDBC connection properties in the Snowflake target connector
 Support for changing Direct Access gateway settings in the Administration activity center
+Support for configuring Allow Lists for the REST  (via Direct Access gateway) and File  (via Direct Access gateway) connectors via the  Administration activity center
 Support for field-level lineage
 Support for iOS 15
 Support for native data or visualizations through Natural language API and Insight Advisor Chat
@@ -808,6 +872,7 @@ Support for registering JSON columns in pipeline projects
 Support for retrieving metadata from multiple tables in parallel
 Switching between tenants in the app
 Tab container
+Table Recipe: Enhanced filtering, null handling, and usability updates
 Table Recipe: Interactive playground for single-table data preparation
 Table improvement
 Table improvements
@@ -818,6 +883,7 @@ Tabular reporting - Formatting of dates and numbers against locale settings for 
 Tabular reporting in managed spaces
 Tabular reporting task recipient list maximum has been modified
 Tabular reporting template management - Changing source app at time of template upload
+Talend Studio Jobs runtime lineage in Qlik Cloud Catalog
 Target-based dataset model for transform and data mart tasks
 Temporarily pause all push and email notifications
 Tenant administrators can assign security roles to all users in the tenant
@@ -830,16 +896,20 @@ Time-aware training in AutoML
 Times series forecasting in Insight Advisor
 Transform data by using a dictionary to rename datasets or columns
 Transformation flows - Microsoft SQL Server supported
+Transformation flows for SQL and Microsoft SQL Server now supported in Qlik Cloud Government
 Transformation flows: added support for Amazon Redshift
 Troubleshoot app objects as part of your app performance evaluation
 Troubleshoot app reloads with new error messages
 Troubleshooting data tasks not using Data Movement gateway
 Tutorial for performing time series decomposition in Qlik Sense
 Two new connectors for Qlik Application Automation now supported in Qlik Cloud Government
+Two new connectors for Qlik Automate now supported in Qlik Cloud Government
 Update to Catalog
 Update to Data Alerts reload execution
 Update to MongoDB connector
 Update: Important change to JWT authorization capabilities with tenants
+Updated API - Data Connections and Data Credentials APIs add support for data integration connectors
+Updated API - Resume Replication tasks using the Data integration projects API
 Updated Natural Language Insights object
 Updated Salesforce connector
 Updated Teradata connector including SSO support
@@ -864,6 +934,7 @@ Updates to styling for button objects
 Updates to styling for waterfall, histogram, distribution plot, box plot, gauge, and KPI charts
 Updates to the Application Automation canvas
 Updates to the Automations canvas
+Updates to the Qlik Talend Data Integration connector in Qlik Automate
 Updates to the Twitter connector
 Updates to the cloud hub interface
 Updates to the data-connections API, and new data-sources API
@@ -897,4 +968,5 @@ Webhooks in Qlik Application Automation
 Webhooks in Qlik Automate
 Why Qlik?
 Window script function enhancements
+Word and PowerPoint reports in Qlik Cloud
 Zebra stripes in new straight table
