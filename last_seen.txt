@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/177-banners-api/
+https://qlik.dev/changelog/191-api-updates-data-apis-connectors/
