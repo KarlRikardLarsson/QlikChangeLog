@@ -134,6 +134,7 @@ Create Tasks in Salesforce and compel your sales team into taking action through
 Create Tasks in Salesforce and compel your sales team into taking action through Qlik Automate
 Create a new note from a snapshot
 Create custom semantic types for enhanced data classification and validation
+Create page in Data Integration activity center
 Create personalized straight tables with chart exploration
 Create pull requests in Qlik Talend Cloud pipelines
 Cross-project pipelines
