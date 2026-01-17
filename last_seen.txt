@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/191-api-updates-data-apis-connectors/
+https://qlik.dev/changelog/193-qlik-embed-svelte-v1/
