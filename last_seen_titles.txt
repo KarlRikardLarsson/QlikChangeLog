@@ -465,6 +465,7 @@ Native JSON Support for Qlik Sense
 Native support for regular expressions
 Natural language insights supported for more analysis types
 Navigation bar search now supports semantic search for Qlik Analytics apps
+Navigation bar search now supports semantic search for datasets
 Navigation enhancements for user support and learning
 Navigation menu
 Nebula extensions for Qlik Sense
