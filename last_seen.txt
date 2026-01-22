@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/193-qlik-embed-svelte-v1/
+https://qlik.dev/changelog/195-di-projects-api-breaking-change/
