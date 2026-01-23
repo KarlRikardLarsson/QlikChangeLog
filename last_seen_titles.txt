@@ -79,6 +79,7 @@ Borders and shadows
 Burst reporting
 Business Glossary import sync
 Business logic fine grain controls in Insight Advisor
+Business logic improvements
 Business logic tutorial
 Butterfly chart
 Calculated dimensions in the selections tool
