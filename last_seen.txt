@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/195-di-projects-api-breaking-change/
+https://qlik.dev/changelog/196-api-data-products/
