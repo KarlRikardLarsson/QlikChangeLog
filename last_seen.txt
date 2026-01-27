@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/197-api-deprecation-notes-settings/
+https://qlik.dev/changelog/198-developer-role-removal/
