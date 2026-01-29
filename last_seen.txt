@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/198-developer-role-removal/
+https://qlik.dev/changelog/199-qlik-embed-oauth-callback-updates/
