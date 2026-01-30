@@ -188,6 +188,7 @@ Data products retain model when opened in Qlik Sense
 Data quality now available in pullup mode for MongoDB datasets
 Data quality validation rules
 Data quality validation rules are now available in Qlik Cloud Government
+Data stewardship
 Data window functions in engine load script
 Databricks ODBC Connector has  OAuth support and improved interface
 Databricks connector gets updated authentication options
@@ -584,6 +585,7 @@ New import format and user interface in Qlik Talend Cloud Pipelines
 New inner and outer set expressions in set analysis
 New label option and layout improvements with grid charts
 New left-side navigation panel in the Management Console
+New mailbox connectors with support for OAuth authentication
 New navigation pane in the Qlik Cloud hub
 New navigation top bar and toolbar
 New notification options for administrators
@@ -638,6 +640,7 @@ Notifications for Application Automation events
 Notifications for Automations events
 Notifications pane
 Notifications with spaces
+Now in Qlik Cloud Government: Write Table in Analytics
 Now supported in Qlik Cloud Government: Large apps replace Dedicated Capacity and Expanded apps
 Now supported in Qlik Cloud Government: New script function integrates tenant attributes
 Null value representation and header settings in straight table
