@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/199-qlik-embed-oauth-callback-updates/
+https://qlik.dev/changelog/200-change-stores-api/
