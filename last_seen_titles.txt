@@ -296,6 +296,7 @@ Governed Data Connection Management (New Security Scope)
 Graphical transformation flow designer
 Graphical transformation flow designer now supported in Qlik Cloud Government
 Grid chart
+Group public bookmarks as an app developer
 Group support for notes
 Grouping bookmarks
 HTML reports for the inbox!
@@ -646,6 +647,7 @@ Now supported in Qlik Cloud Government: New script function integrates tenant at
 Null value representation and header settings in straight table
 OAuth impersonation tokens
 OAuth support for Databricks target connector
+OAuth web clients support private key JWT
 OAuth: Limiting access by scopes
 ODBC database connector performance increase
 OData connector can access JSON data
