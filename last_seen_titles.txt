@@ -380,6 +380,7 @@ Introducing Qlik conversational analytics in Microsoft Teams
 Introducing Shared Automations
 Introducing attachment support for the Microsoft Outlook connector in Qlik Automate
 Introducing concurrent automation runs
+Introducing keyboard shortcuts for the automation editor
 Introducing new capabilities for the Qlik Predict connector in Qlik Automate
 Introducing public API for Direct Access gateway configurations
 Introducing public API to enable and disable access to data sources by tenant
@@ -848,6 +849,7 @@ Snowpipe Streaming support
 Straight table styling improvements
 Straight table: Quick sort, search, and cyclic dimension change
 Straight table: multi-page download to PDF
+Streamlining user types in Qlik Cloud capacity-based subscriptions
 Strengthen security with IP allowlists in Qlik Cloud
 Structure Direct Query apps with script variables
 Styling Grid, Funnel & Sankey charts
