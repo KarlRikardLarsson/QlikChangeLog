@@ -221,6 +221,7 @@ Distribute chart images through Qlik Automate
 Dollar-sign expansion
 Download review feedback from Qlik Answers assistants
 Downloading as image for straight table in Visualization bundle
+Drag and drop columns in the new straight table
 Dynamic reload engines for all reloads
 Dynamic titles are supported when downloading or exporting sheets
 Easier way of documenting data products
