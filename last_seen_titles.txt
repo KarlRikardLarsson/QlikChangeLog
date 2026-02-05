@@ -666,6 +666,7 @@ OpenAI Analytics Connector
 OpenAI Chat Completion block
 OpenAI Connector for Application Automation
 Optimizing data delivery to cloud platforms
+Option reload of ODAG generated apps
 Option to limit the scope for Google Drive connector to read-only
 Org Chart, now with images and new styling settings
 Other cloud solutions
