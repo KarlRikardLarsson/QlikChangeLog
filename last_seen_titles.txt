@@ -322,6 +322,7 @@ Improved assistance in Insight Advisor Chat
 Improved browsing and loading data with data catalog
 Improved button automation support
 Improved button automation support now available in Qlik Cloud Government
+Improved clarity and consistency in the embedded scheduler
 Improved create connection interface
 Improved download access in visualizations
 Improved editing for master items
@@ -383,6 +384,7 @@ Introducing attachment support for the Microsoft Outlook connector in Qlik Autom
 Introducing concurrent automation runs
 Introducing keyboard shortcuts for the automation editor
 Introducing new capabilities for the Qlik Predict connector in Qlik Automate
+Introducing on-demand log file decryption
 Introducing public API for Direct Access gateway configurations
 Introducing public API to enable and disable access to data sources by tenant
 Introducing support for projects in the Qlik Talend Cloud Data Integration connector in Qlik Application Automation
@@ -702,6 +704,7 @@ Qlik Analytics Migration Tool – v2.0.0 Release
 Qlik Analytics Migration Tool: November 2025 release
 Qlik Anonymous Access
 Qlik Answers
+Qlik Answers agentic experience
 Qlik Answers search enhancements
 Qlik Answers support for Google Drive and OneDrive connections
 Qlik Answers upgrade to Claude Sonnet 3.5
@@ -767,6 +770,7 @@ Qlik Trust Score™ is now available at data product level
 Qlik add-in for Microsoft Excel - optimized experience for changing source app
 Qlik has achieved updated or new certifications related to Qlik Cloud
 QlikView to Qlik Cloud Migration
+Qlik MCP server
 Quality compute pushdown now available for Databricks Unity
 Re-designed view for transform tasks
 Real-world use case and example for KMeans
