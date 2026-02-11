@@ -385,10 +385,12 @@ Introducing concurrent automation runs
 Introducing keyboard shortcuts for the automation editor
 Introducing new capabilities for the Qlik Predict connector in Qlik Automate
 Introducing on-demand log file decryption
+Introducing our new Kafka target connector: Seamless data replication at your fingertips!
 Introducing public API for Direct Access gateway configurations
 Introducing public API to enable and disable access to data sources by tenant
 Introducing support for projects in the Qlik Talend Cloud Data Integration connector in Qlik Application Automation
 Introducing support for projects in the Qlik Talend Cloud Data Integration connector in Qlik Automate
+Introducing the new Qlik Account profile page
 Introducing the new Qlik Answers connector for Qlik Application Automation
 Introducing the new Qlik Answers connector for Qlik Automate
 KPI background color and new icons
@@ -501,6 +503,7 @@ New Direct Access gateway version
 New Direct Access gateway version (1.7.0)
 New Direct Access gateway version (1.7.1)
 New Direct Access gateway version (1.7.10)
+New Direct Access gateway version (1.7.11)
 New Direct Access gateway version (1.7.2)
 New Direct Access gateway version (1.7.3)
 New Direct Access gateway version (1.7.4)
