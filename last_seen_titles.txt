@@ -16,6 +16,7 @@ Add an image to point layer map from URL
 Add background colors and images to mekko charts
 Add background colors and images to straight tables, pivot charts, pie charts, and bar charts
 Add custom images to links and generate link artifacts in the hub
+Add fields to the selection bar
 Add images to your line chart
 Add links to straight tables and pivot tables
 Add natural language insights to sheets
