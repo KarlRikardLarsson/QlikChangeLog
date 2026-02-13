@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/201-tenant-settings-api/
+https://qlik.dev/changelog/203-api-updates-apps-placement/
