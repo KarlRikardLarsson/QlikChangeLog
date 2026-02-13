@@ -434,6 +434,7 @@ Managing data assets
 Managing data connections
 Managing field-level metadata
 Managing usage metrics
+Manual compute environment selection for applications
 Manually add points and lines to line charts
 Many new  SaaS application connectors for Qlik Talend Cloud
 Map chart WMS improvements
@@ -649,6 +650,7 @@ Notifications for Application Automation events
 Notifications for Automations events
 Notifications pane
 Notifications with spaces
+Now in Qlik Cloud Government: Dynamic reload engines for all reloads
 Now in Qlik Cloud Government: Write Table in Analytics
 Now supported in Qlik Cloud Government: Large apps replace Dedicated Capacity and Expanded apps
 Now supported in Qlik Cloud Government: New script function integrates tenant attributes
@@ -806,6 +808,7 @@ Resizable properties panel
 Resource Center now available for Qlik Cloud Government
 Restore unsaved changes to Qlik Application Automation
 Restore unsaved changes to Qlik Automate
+Rich text editor for data products documentation
 Rollover and purging of replication log files
 Runtime evaluation option for actions
 SAML based IdP supports encrypted assertions
@@ -856,6 +859,7 @@ Simplified metadata change experience
 Snowflake connectivity enhancements
 Snowflake target connections in Data Integration now  support key pair authentication
 Snowpipe Streaming support
+Spot potential bias during training with Qlik Predict
 Straight table styling improvements
 Straight table: Quick sort, search, and cyclic dimension change
 Straight table: multi-page download to PDF
