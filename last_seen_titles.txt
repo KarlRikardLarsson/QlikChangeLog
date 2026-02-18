@@ -452,6 +452,7 @@ Migrate QlikView Server bookmarks
 Migrating from Qlik Sense Client-Managed to Qlik Cloud
 Migrating to Qlik Cloud Analytics
 Migrating to Qlik Talend Cloud
+Mirror data to Amazon Redshift from Qlik Open Lakehouse
 Mobile app renamed to Qlik Analytics
 Model Approval Workflow
 Model monitoring in AutoML
