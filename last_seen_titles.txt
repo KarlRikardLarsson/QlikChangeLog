@@ -395,6 +395,7 @@ Introducing the new Qlik Account profile page
 Introducing the new Qlik Answers connector for Qlik Application Automation
 Introducing the new Qlik Answers connector for Qlik Automate
 KPI background color and new icons
+Keep track of deprecated charts
 Key Driver Analysis
 Key pair support added for OpenID Connect Identity Providers
 Keyboard navigation in view data mode
@@ -640,6 +641,7 @@ New templates in Qlik Application Automation
 New templates in Qlik Automate
 New text object extension
 New toolbar customization settings
+New unified administration between Qlik Cloud and Talend Cloud
 New user guide for creating inline loads
 New user role: Embedded Analytics User
 New variable options for including current state in bookmarks and reports
@@ -934,6 +936,7 @@ Troubleshooting data tasks not using Data Movement gateway
 Tutorial for performing time series decomposition in Qlik Sense
 Two new connectors for Qlik Application Automation now supported in Qlik Cloud Government
 Two new connectors for Qlik Automate now supported in Qlik Cloud Government
+Unified administration between Qlik Cloud and Talend Cloud (TBD)
 Update to Catalog
 Update to Data Alerts reload execution
 Update to MongoDB connector
