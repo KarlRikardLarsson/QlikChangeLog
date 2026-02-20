@@ -77,6 +77,7 @@ Background color opacity
 Bars on secondary axis in combo chart
 Binary loads from spaces
 Borders and shadows
+Browsing improvements driving efficiency
 Burst reporting
 Business Glossary import sync
 Business logic fine grain controls in Insight Advisor
@@ -611,6 +612,7 @@ New release: connection sharing for automations
 New role simplifies governance automations in Qlik Cloud
 New role: Data Services Contributor
 New screen reader support
+New script and chart functions
 New script function integrates tenant attributes
 New script function integrates user attributes
 New security rules
