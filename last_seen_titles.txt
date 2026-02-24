@@ -382,6 +382,7 @@ Introducing Qlik Talend Data Integration
 Introducing Qlik Trust Score™ for measuring dataset trustworthiness
 Introducing Qlik conversational analytics in Microsoft Teams
 Introducing Shared Automations
+Introducing a new permission for private automations
 Introducing attachment support for the Microsoft Outlook connector in Qlik Automate
 Introducing concurrent automation runs
 Introducing keyboard shortcuts for the automation editor
