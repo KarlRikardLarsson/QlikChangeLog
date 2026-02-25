@@ -176,6 +176,7 @@ Data Integration: deleting projects
 Data Lakehouse capabilities for Snowflake projects
 Data Movement gateway troubleshooting improvements
 Data Movement gateway troubleshooting improvements now supported in Qlik Cloud Government
+Data Products for Analytics
 Data Services: Cloud entitlement support
 Data catalog integration with cloud hub
 Data consumer role for spaces
@@ -365,6 +366,7 @@ Increased run timeout for Qlik Automate
 Increased security in Google BigQuery and MongoDB connections
 Increases to maximum number of custom groups
 Indent rows setting in the new pivot table
+Inline images in the Text object
 Inserting scripts within scripts
 Insight Advisor
 Insight Advisor Chat
@@ -727,6 +729,7 @@ Qlik Application Automation packaging shifts to third-party runs
 Qlik Application Automation templates
 Qlik AutoML SHAP feature importance now available in multiclass experiments
 Qlik Automate Templates
+Qlik Automate Webhook automations can now run up to 4 hours
 Qlik Automate connector updates
 Qlik Automate now Supports Reload Weight and Reload Variable
 Qlik Automate packaging shifts to third-party runs
