@@ -921,6 +921,7 @@ Tabular reporting - Formatting of dates and numbers against locale settings for 
 Tabular reporting in managed spaces
 Tabular reporting task recipient list maximum has been modified
 Tabular reporting template management - Changing source app at time of template upload
+Talend Cloud
 Talend Studio Jobs runtime lineage in Qlik Cloud Catalog
 Target-based dataset model for transform and data mart tasks
 Temporarily pause all push and email notifications
