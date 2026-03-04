@@ -171,6 +171,7 @@ Data Flow: Enhanced troubleshooting and productivity features
 Data Flow: Expanded processors with RegEx support, multi-output forks, and number conversion
 Data Flow: New Pivot processor and enhanced processors (Dates, Window)
 Data Flow: New Sample processor and more flexible Aggregate and Qlik processors
+Data Flow: New operations in Aggregate processor
 Data Integration merges Prepare and Sync into a single Prepare command
 Data Integration: deleting projects
 Data Lakehouse capabilities for Snowflake projects
@@ -624,6 +625,7 @@ New security scope to govern Insight Advisor
 New service added for Amazon Comprehend
 New space role that allows creating and managing schedules in managed spaces
 New storage provider connector for SFTP
+New streaming ingestion capabilities for Qlik Open Lakehouse
 New styling for sheet titles
 New styling options for Qlik Sense chart legends
 New styling options for line charts
@@ -719,6 +721,7 @@ Qlik Analytics Migration Tool: November 2025 release
 Qlik Anonymous Access
 Qlik Answers
 Qlik Answers agentic experience
+Qlik Answers legacy model updates
 Qlik Answers search enhancements
 Qlik Answers support for Google Drive and OneDrive connections
 Qlik Answers upgrade to Claude Sonnet 3.5
@@ -879,6 +882,7 @@ Styling Grid, Funnel & Sankey charts
 Styling for KPIs
 Styling for pie and donut charts
 Styling of selection bar with custom themes
+Styling of top bar in applications
 Subscribe to news feed
 Subscription management
 Subscription reports
