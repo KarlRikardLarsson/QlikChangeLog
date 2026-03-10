@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/203-api-updates-apps-placement/
+https://qlik.dev/changelog/204-new-events/
