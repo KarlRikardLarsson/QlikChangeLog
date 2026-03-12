@@ -410,6 +410,7 @@ Label coloring with map chart
 Landing reload selected tables
 Landing transformations for Qlik Talend Data Integration sources
 Large apps replace Dedicated Capacity and Expanded apps
+Large training datasets for Qlik Predict
 Layered label orientation with charts
 Layout container
 Layout container improvements
@@ -513,6 +514,7 @@ New Direct Access gateway version (1.7.0)
 New Direct Access gateway version (1.7.1)
 New Direct Access gateway version (1.7.10)
 New Direct Access gateway version (1.7.11)
+New Direct Access gateway version (1.7.12)
 New Direct Access gateway version (1.7.2)
 New Direct Access gateway version (1.7.3)
 New Direct Access gateway version (1.7.4)
