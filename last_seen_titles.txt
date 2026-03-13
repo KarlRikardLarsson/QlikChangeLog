@@ -404,6 +404,7 @@ Keep track of deprecated charts
 Key Driver Analysis
 Key pair support added for OpenID Connect Identity Providers
 Keyboard navigation in view data mode
+Keyboard shortcuts for Analytics Applications
 Knowledge base Summary page
 Knowledge marts are now supported on Databricks
 Label coloring with map chart
@@ -939,6 +940,7 @@ Time series forecasting in line charts
 Time series forecasting properties
 Time-aware training in AutoML
 Times series forecasting in Insight Advisor
+Top bar styling options
 Transform data by using a dictionary to rename datasets or columns
 Transformation flows - Microsoft SQL Server supported
 Transformation flows for SQL and Microsoft SQL Server now supported in Qlik Cloud Government
