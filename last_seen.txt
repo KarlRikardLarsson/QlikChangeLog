@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/204-new-events/
+https://qlik.dev/changelog/205-in-app-reporting-toggle-deprecation/
