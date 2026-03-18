@@ -219,6 +219,7 @@ Direct Query now supports searching in listboxes
 Direct Query powers SQL pushdown in Snowflake
 Direct Query support for layout containers, lines, and text objects from the Dashboard bundle
 Direct Query supports new data connection types
+Discovery Agent: Turn Data Changes Into Actionable Insights
 Dismissible warning and info dialogs in applications
 Distribute chart images through Qlik Application Automation
 Distribute chart images through Qlik Automate
@@ -239,6 +240,7 @@ Enforcement of third-party overages for Qlik Automate
 Enhanced Webhook Security
 Enhanced accuracy for knowledge bases
 Enhanced datetime precision control
+Enhanced indexing status for Qlik Answersapplications
 Enhanced monitored charts in Qlik Cloud
 Enhanced opening experience for analytic apps
 Enhanced support for connection-based datasets in data preparation and applications
@@ -724,6 +726,7 @@ Qlik Analytics Migration Tool: November 2025 release
 Qlik Anonymous Access
 Qlik Answers
 Qlik Answers agentic experience
+Qlik Answers application management in the Administration activity center
 Qlik Answers legacy model updates
 Qlik Answers search enhancements
 Qlik Answers support for Google Drive and OneDrive connections
@@ -951,6 +954,7 @@ Troubleshooting data tasks not using Data Movement gateway
 Tutorial for performing time series decomposition in Qlik Sense
 Two new connectors for Qlik Application Automation now supported in Qlik Cloud Government
 Two new connectors for Qlik Automate now supported in Qlik Cloud Government
+UI improvements for straight table
 Unified administration between Qlik Cloud and Talend Cloud (TBD)
 Update to Catalog
 Update to Data Alerts reload execution
@@ -983,6 +987,7 @@ Updates to styling for waterfall, histogram, distribution plot, box plot, gauge,
 Updates to the Application Automation canvas
 Updates to the Automations canvas
 Updates to the Qlik Talend Data Integration connector in Qlik Automate
+Updates to the Share > Embed menu
 Updates to the Twitter connector
 Updates to the cloud hub interface
 Updates to the data-connections API, and new data-sources API
