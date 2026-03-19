@@ -76,6 +76,7 @@ Automations reports can contain sheets from different Qlik Cloud apps
 Background color opacity
 Bars on secondary axis in combo chart
 Binary loads from spaces
+Block Request Timeout Increase for Qlik Automate from 55 Seconds to 5 Minutes
 Borders and shadows
 Browsing improvements driving efficiency
 Burst reporting
@@ -802,6 +803,7 @@ Receive notifications for AutoML experiments
 Recipient limits changed
 Recommended machine learning models
 Redesigned documentation
+Redirect for automations with inputs
 Refine your in-app subscriptions with dynamic expressions
 Refresh and change dataset for new AutoML experiment version
 Refresh dataset metadata in the catalog
