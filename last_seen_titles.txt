@@ -59,6 +59,7 @@ App performance evaluator enhancements
 App size information added to app details
 Application Automation reports can contain sheets from different Qlik Cloud apps
 Application chaining
+Application changes for Qlik Answers
 Apply a unique color setting for each measure in a combo chart
 Area for line coming to combo chart
 Assign a Server-Side Encryption (SSE) header value to Amazon S3 connector
