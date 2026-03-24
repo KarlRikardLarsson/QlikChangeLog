@@ -850,6 +850,7 @@ Scatter plots can display larger datasets
 Scatterplot now supports regression lines
 Scheduling alert evaluations
 Schema evolution improvements
+Scope-based access control across Qlik Cloud
 Script-only variables and drop mapping tables
 Seamless application sharing and access requests in Qlik Cloud
 Search and replace in expression editor
