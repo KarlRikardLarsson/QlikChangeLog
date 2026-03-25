@@ -281,6 +281,7 @@ Features now in Qlik Cloud Government
 Field-level lineage and impact analysis
 Filter on spaces to search and browse
 Filter pane styling
+Filter valid, empty, and invalid records from dataset preview
 Folder support for storage of prediction and experiment datasets
 Font styling with map charts
 Format specifier added for STORE of parquet files with nested data
@@ -393,6 +394,7 @@ Introducing a new permission for private automations
 Introducing attachment support for the Microsoft Outlook connector in Qlik Automate
 Introducing concurrent automation runs
 Introducing keyboard shortcuts for the automation editor
+Introducing multi-select and bulk actions for blocks in the Automation editor
 Introducing new capabilities for the Qlik Predict connector in Qlik Automate
 Introducing on-demand log file decryption
 Introducing our new Kafka target connector: Seamless data replication at your fingertips!
@@ -1024,6 +1026,7 @@ Webhooks
 Webhooks for Qlik Talend Cloud Pipelines now available in Qlik Automate
 Webhooks in Qlik Application Automation
 Webhooks in Qlik Automate
+What’s New: Global Task Monitoring in Qlik Cloud
 Why Qlik?
 Window script function enhancements
 Word and PowerPoint reports in Qlik Cloud
