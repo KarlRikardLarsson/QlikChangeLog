@@ -4,6 +4,7 @@ AI processor for transformation flows
 AI processor for transformation flows now supported in Qlik Cloud Government
 AI recommended relationships in Qlik Talend Cloud data models
 AI-based SQL Assistant
+AI-recommended features for bias detection
 API for monitoring enhancements
 API rate limiting enforcement
 AYLIEN text analysis data source
@@ -121,6 +122,7 @@ Collaborate on load scripts in shared spaces
 Combo chart improvements
 Company
 Comparing app performance evaluations
+Configurable preview size
 Configure SMTP sender name in Qlik Cloud
 Configure a Microsoft 365 email provider using OAuth2 for Qlik Cloud tenant
 Connect to Azure OpenAI Service
@@ -312,6 +314,7 @@ Group support for notes
 Grouping bookmarks
 HTML reports for the inbox!
 HTML reports in Qlik Automate
+Header and content cell styling in straight tables
 Help Resources
 Hidden sheets
 Hide or show measures in a bar chart based on conditions
@@ -732,6 +735,7 @@ Qlik Analytics mobile app supports Intune policies
 Qlik Anonymous Access
 Qlik Answers
 Qlik Answers agentic experience
+Qlik Answers agentic experience available in the Europe (London) region
 Qlik Answers application management in the Administration activity center
 Qlik Answers legacy model updates
 Qlik Answers search enhancements
