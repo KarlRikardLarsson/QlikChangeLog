@@ -75,6 +75,7 @@ AutoML Schedule dataset predictions
 Automatic mapping of JSON data types to compatible targets
 Automatic token refresh for connectors
 Automation for Business Glossary
+Automation payload size increase to 1 MB
 Automations reports can contain sheets from different Qlik Cloud apps
 Background color opacity
 Bars on secondary axis in combo chart
@@ -802,6 +803,7 @@ Qlik Trust Score™ historization
 Qlik Trust Score™ history with graphical navigation
 Qlik Trust Score™ is now available at data product level
 Qlik add-in for Microsoft Excel - optimized experience for changing source app
+Qlik has achieved new attestations related to the Qlik Cloud Government regions
 Qlik has achieved updated or new certifications related to Qlik Cloud
 QlikView to Qlik Cloud Migration
 Qlik MCP server
@@ -944,6 +946,7 @@ Tabular reporting in managed spaces
 Tabular reporting task recipient list maximum has been modified
 Tabular reporting template management - Changing source app at time of template upload
 Talend Cloud
+Talend Management Console in Qlik Cloud
 Talend Studio Jobs runtime lineage in Qlik Cloud Catalog
 Target-based dataset model for transform and data mart tasks
 Temporarily pause all push and email notifications
