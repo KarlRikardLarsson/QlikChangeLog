@@ -892,6 +892,7 @@ Snowflake connectivity enhancements
 Snowflake target connections in Data Integration now  support key pair authentication
 Snowpipe Streaming support
 Spot potential bias during training with Qlik Predict
+Straight table data section revamp
 Straight table styling improvements
 Straight table: Quick sort, search, and cyclic dimension change
 Straight table: multi-page download to PDF
