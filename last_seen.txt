@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/205-in-app-reporting-toggle-deprecation/
+https://qlik.dev/changelog/206-qlik-cli-namespaced-api-support/
