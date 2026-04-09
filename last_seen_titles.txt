@@ -8,6 +8,7 @@ AI-recommended features for bias detection
 API for monitoring enhancements
 API rate limiting enforcement
 AYLIEN text analysis data source
+Ability to keep tasks artifacts after deletion
 About Qlik
 Action button: go to chart
 Action to set active cyclic dimension field
@@ -806,6 +807,7 @@ Qlik add-in for Microsoft Excel - optimized experience for changing source app
 Qlik has achieved new attestations related to the Qlik Cloud Government regions
 Qlik has achieved updated or new certifications related to Qlik Cloud
 QlikView to Qlik Cloud Migration
+QlikView to Qlik Sense Converter Tool (QV2QS) now available
 Qlik MCP server
 Quality compute pushdown now available for Databricks Unity
 Re-designed view for transform tasks
