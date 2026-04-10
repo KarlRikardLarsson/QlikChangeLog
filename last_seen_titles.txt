@@ -280,6 +280,7 @@ Extended Data Quality computation for QVDs now supported in Qlik Cloud Governmen
 Extended monitoring for scheduled CDC tasks
 External datasets from file-based sources
 FILTERS
+Faster responses in Qlik Answers
 Favorites in the hub
 Feature flag opens QlikView apps in IE11 plug-in
 Features now in Qlik Cloud Government
@@ -928,6 +929,7 @@ Support for additional ODBC and JDBC connection properties in the Snowflake targ
 Support for changing Direct Access gateway settings in the Administration activity center
 Support for configuring Allow Lists for the REST  (via Direct Access gateway) and File  (via Direct Access gateway) connectors via the  Administration activity center
 Support for connecting to Google Cloud via the Microsoft SQL Server (MS-CDC) source connector
+Support for expressions and label|value input for the write table dropdown input
 Support for field-level lineage
 Support for iOS 15
 Support for native data or visualizations through Natural language API and Insight Advisor Chat
