@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/206-qlik-cli-namespaced-api-support/
+https://qlik.dev/changelog/207-organization-rest-apis/
