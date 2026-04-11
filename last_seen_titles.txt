@@ -1032,6 +1032,7 @@ Version control with GitHub
 Version control with GitHub now available in Qlik Cloud Government
 Video player
 View Qlik AutoML experiments faster with new button
+View all tenants and manage organization-level OAuth clients
 View app reload log
 View data connections by space
 View visualizations as tables
