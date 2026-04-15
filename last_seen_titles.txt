@@ -64,6 +64,7 @@ Application Automation reports can contain sheets from different Qlik Cloud apps
 Application chaining
 Application changes for Qlik Answers
 Apply a unique color setting for each measure in a combo chart
+April 1, 2026
 Area for line coming to combo chart
 Assign a Server-Side Encryption (SSE) header value to Amazon S3 connector
 Assign roles to users and groups
@@ -968,6 +969,7 @@ Transform data by using a dictionary to rename datasets or columns
 Transformation flows - Microsoft SQL Server supported
 Transformation flows for SQL and Microsoft SQL Server now supported in Qlik Cloud Government
 Transformation flows: added support for Amazon Redshift
+Trigger data quality refresh for a data product
 Troubleshoot app objects as part of your app performance evaluation
 Troubleshoot app reloads with new error messages
 Troubleshooting data tasks not using Data Movement gateway
@@ -1032,6 +1034,7 @@ Version control with GitHub
 Version control with GitHub now available in Qlik Cloud Government
 Video player
 View Qlik AutoML experiments faster with new button
+View all tenants across subscriptions and manage organization-level OAuth clients
 View all tenants and manage organization-level OAuth clients
 View app reload log
 View data connections by space
