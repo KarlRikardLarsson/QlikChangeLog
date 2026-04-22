@@ -128,6 +128,7 @@ Comparing app performance evaluations
 Configurable preview size
 Configure SMTP sender name in Qlik Cloud
 Configure a Microsoft 365 email provider using OAuth2 for Qlik Cloud tenant
+Configuring user session timeouts
 Connect to Azure OpenAI Service
 Connect to cloud data warehouses and storage via a proxy server
 Connection-based datasets
