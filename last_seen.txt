@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/207-organization-rest-apis/
+https://qlik.dev/changelog/209-data-qualities-deprecation/
