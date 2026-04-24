@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/209-data-qualities-deprecation/
+https://qlik.dev/changelog/213-auth-settings-api/
