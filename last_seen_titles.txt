@@ -876,6 +876,7 @@ Secured access to data sources using SSH tunnel
 Securely access SAP data behind firewalls
 Security enhancements for Qlik Sense Mobile SaaS
 Select locale for app creation
+Select visible in map charts
 Selection bar improvements
 Self-Service Scheduling – Task Chaining & Multi-Task Support
 Semantic types impact analysis
