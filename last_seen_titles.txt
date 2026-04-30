@@ -344,6 +344,7 @@ Improved clarity and consistency in the embedded scheduler
 Improved create connection interface
 Improved download access in visualizations
 Improved editing for master items
+Improved error messaging for time series experiments
 Improved filtering in Catalog tools
 Improved font handling
 Improved interface for app reload scheduling
@@ -591,6 +592,7 @@ New blocks for Talend Cloud connector in Qlik Application Automation
 New blocks for Talend Cloud connector in Qlik Automate
 New blocks for the Stitch connector in Qlik Application Automation
 New blocks for the Stitch connector in Qlik Automate
+New bookmark and master item tools for Qlik MCP server
 New business glossary features
 New calculation functions
 New chart and script functions to support JSON
@@ -716,6 +718,7 @@ Period over period analysis
 Period over period dashboards in Insight Advisor
 Permissions to control access to Notes
 Pivot table expand and collapse options
+Pivot table exploration
 Pivot table indicators
 PixelPerfect report authoring
 PixelPerfect report authoring - refresh source data binding for new measures/dimensions
@@ -798,6 +801,7 @@ Qlik Reporting Service API for Qlik Cloud Government
 Qlik Sense Enterprise SaaS - Government (US) supports Customer Managed Keys
 Qlik Sense self-service reporting
 Qlik SenseGeoOperations
+Qlik Talend Cloud - Data Integration improvements
 Qlik Talend Cloud Data Integration improvements
 Qlik Talend CloudData Integration improvements
 Qlik Talend Data Integration improvements
@@ -875,6 +879,7 @@ Section access behavior
 Secured access to data sources using SSH tunnel
 Securely access SAP data behind firewalls
 Security enhancements for Qlik Sense Mobile SaaS
+Select by visible points in map charts
 Select locale for app creation
 Select visible in map charts
 Selection bar improvements
