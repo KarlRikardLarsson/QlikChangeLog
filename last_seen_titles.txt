@@ -81,6 +81,7 @@ Automation payload size increase to 1 MB
 Automations reports can contain sheets from different Qlik Cloud apps
 Background color opacity
 Bars on secondary axis in combo chart
+Bidirectional glossary term relationships
 Binary loads from spaces
 Block Request Timeout Increase for Qlik Automate from 55 Seconds to 5 Minutes
 Borders and shadows
