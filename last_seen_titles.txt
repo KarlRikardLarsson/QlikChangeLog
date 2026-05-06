@@ -880,6 +880,7 @@ Section access behavior
 Secured access to data sources using SSH tunnel
 Securely access SAP data behind firewalls
 Security enhancements for Qlik Sense Mobile SaaS
+Select a branch for cross-project data sources
 Select by visible points in map charts
 Select locale for app creation
 Select visible in map charts
