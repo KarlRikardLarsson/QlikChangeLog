@@ -107,8 +107,10 @@ Change Table Creation Improvements
 Change file formatting directly in Qlik Catalog
 Change point detection in Insight Advisor
 Change to platform navigation
+Changes to Analyzer user access
 Changes to platform navigation
 Changes to queued automation retention time
+Changes to scheduled automations
 Changing owner of a data project
 Chart animations for bullet and line charts
 Chart background image by URL
@@ -630,6 +632,7 @@ New navigation top bar and toolbar
 New notification options for administrators
 New options for straight table data download
 New pane for monitoring capacity consumption in the Management Console
+New permission added for the engine assignment feature
 New permissions to control access to Qlik Predict
 New pivot table
 New project level data view
