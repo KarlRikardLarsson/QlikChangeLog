@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/213-auth-settings-api/
+https://qlik.dev/changelog/216-webhooks-legacy-fields-removal/
