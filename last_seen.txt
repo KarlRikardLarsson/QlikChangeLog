@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/216-webhooks-legacy-fields-removal/
+https://qlik.dev/changelog/217-tenants-api-enableanalyticcreation-deprecation/
