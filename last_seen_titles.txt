@@ -209,6 +209,7 @@ Data stewardship
 Data window functions in engine load script
 Databricks ODBC Connector has  OAuth support and improved interface
 Databricks connector gets updated authentication options
+Databricks mirroring for Qlik Open Lakehouse
 Date feature engineering
 Dedicated menu entry for data product management
 Default tab for containers
