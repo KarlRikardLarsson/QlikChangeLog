@@ -224,6 +224,7 @@ Deprecation of the evaluations API
 Developer role and API key toggle deprecated
 Developer role and API key toggle removed
 Did this page help you?
+Direct Access gateway Knowledge Base connector
 Direct Access gateway hot fix for excessive CPU utilization
 Direct Query adds support for Databricks
 Direct Query is now supported in the variable input control
@@ -625,6 +626,7 @@ New features and enhancements in Qlik Cloud Data Integration
 New filter pane settings
 New filters for monitor views: "Source type" and "Data gateway"
 New gateway-less data loader capability
+New image object
 New import format and user interface in Qlik Talend Cloud Pipelines
 New inner and outer set expressions in set analysis
 New label option and layout improvements with grid charts
@@ -732,6 +734,7 @@ PixelPerfect report authoring - refresh source data binding for new measures/dim
 PixelPerfect template editor improvements
 Preview data now includes column data types
 Preview new asset panel
+Preview validation rule impact before applying it
 Print, subscribe, snapshot, and monitor with the new Pivot table
 Privacy Preference Center
 Process data changes incrementally using the high watermark method
@@ -992,6 +995,7 @@ Troubleshooting data tasks not using Data Movement gateway
 Tutorial for performing time series decomposition in Qlik Sense
 Two new connectors for Qlik Application Automation now supported in Qlik Cloud Government
 Two new connectors for Qlik Automate now supported in Qlik Cloud Government
+UI improvements : Qlik Answers May 2026
 UI improvements for straight table
 Unified administration between Qlik Cloud and Talend Cloud (TBD)
 Update to Catalog
