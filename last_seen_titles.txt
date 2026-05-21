@@ -861,6 +861,7 @@ Restore unsaved changes to Qlik Application Automation
 Restore unsaved changes to Qlik Automate
 Rich text editor for data products documentation
 Rollover and purging of replication log files
+Run monitoring history
 Runtime evaluation option for actions
 SAML based IdP supports encrypted assertions
 SAML identity providers support
@@ -1009,6 +1010,7 @@ Updated Salesforce connector
 Updated Teradata connector including SSO support
 Updated admin.apps scope
 Updated editing experience
+Updated experiment configuration panel
 Updated support for Azure ML
 Updated tutorial for Qlik AutoML
 Updates to  Application Automation
