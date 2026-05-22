@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/217-tenants-api-enableanalyticcreation-deprecation/
+https://qlik.dev/changelog/220-share-docs-with-ai-tools/
