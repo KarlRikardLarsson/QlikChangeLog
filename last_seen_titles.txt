@@ -76,6 +76,7 @@ AutoML Access Controls
 AutoML Schedule dataset predictions
 Automatic mapping of JSON data types to compatible targets
 Automatic token refresh for connectors
+Automation connectors now available for Qlik Cloud Government - DoD
 Automation for Business Glossary
 Automation payload size increase to 1 MB
 Automations reports can contain sheets from different Qlik Cloud apps
@@ -195,6 +196,7 @@ Data Services: Cloud entitlement support
 Data catalog integration with cloud hub
 Data consumer role for spaces
 Data flow: No-code data preparation for analytics and AI
+Data load editor and Script editor: Updated connections panel with faster loading and improved file browsing
 Data marketplace, Catalog, and Data quality  now supported in Qlik Cloud Government
 Data preparation in the hub
 Data product documentation for viewing or download
@@ -252,6 +254,7 @@ Enable and disable autocomplete in script and expression editors
 Enable webhooks for all users and allow event filtering
 Enforcement of third-party overages for Qlik Application Automation
 Enforcement of third-party overages for Qlik Automate
+Engine functions in Direct Query expressions
 Enhanced Webhook Security
 Enhanced accuracy for knowledge bases
 Enhanced datetime precision control
@@ -428,6 +431,7 @@ Key pair support added for OpenID Connect Identity Providers
 Keyboard navigation in view data mode
 Keyboard shortcuts for Analytics Applications
 Knowledge base Summary page
+Knowledge base search in Qlik MCP server
 Knowledge marts are now supported on Databricks
 Label coloring with map chart
 Landing reload selected tables
@@ -755,6 +759,7 @@ Qlik Anonymous Access
 Qlik Answers
 Qlik Answers agentic experience
 Qlik Answers agentic experience available in the Europe (London) region
+Qlik Answers agentic experience available in the South America (São Paulo) region
 Qlik Answers application management in the Administration activity center
 Qlik Answers legacy model updates
 Qlik Answers search enhancements
@@ -874,6 +879,7 @@ SAP NetWeaver connector updated to v8.3.0 (Connector and Transports)
 SHAP importance datasets supported
 SMTP server configuration
 SQL Expression processor
+SQL Workbench
 Save automations as templates and share with others
 Save container tab in bookmark
 Save variable values in bookmarks
@@ -1037,6 +1043,7 @@ Updates to the Twitter connector
 Updates to the cloud hub interface
 Updates to the data-connections API, and new data-sources API
 Updates to the underscore.js library
+Updating activated data products in the Marketplace
 Upload Qlik Sense Visualization Files from QlikView to Qlik Cloud
 Uploading apps with GeoAnalytics extensions
 Usage reports for Qlik Application Automation and the Qlik Reporting Service
