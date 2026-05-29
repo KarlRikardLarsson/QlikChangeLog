@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/220-share-docs-with-ai-tools/
+https://qlik.dev/changelog/221-change-stores-api-editable-columns/
