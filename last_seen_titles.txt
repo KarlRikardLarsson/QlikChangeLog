@@ -657,6 +657,7 @@ New security rules
 New security scope to govern GeoOperations
 New security scope to govern Insight Advisor
 New service added for Amazon Comprehend
+New slider
 New space role that allows creating and managing schedules in managed spaces
 New storage provider connector for SFTP
 New streaming ingestion capabilities for Qlik Open Lakehouse
@@ -827,6 +828,7 @@ Qlik Trust Score™ historization
 Qlik Trust Score™ history with graphical navigation
 Qlik Trust Score™ is now available at data product level
 Qlik add-in for Microsoft Excel - optimized experience for changing source app
+Qlik add-ins for Microsoft Office now available in Office 365 GCC and GCCH
 Qlik has achieved new attestations related to the Qlik Cloud Government regions
 Qlik has achieved updated or new certifications related to Qlik Cloud
 QlikView to Qlik Cloud Migration
