@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/221-change-stores-api-editable-columns/
+https://qlik.dev/changelog/222-data-qualities-api-data-governance/
