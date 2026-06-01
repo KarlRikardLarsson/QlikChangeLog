@@ -146,6 +146,7 @@ Control chart animations
 Controlling when the table error handling policy is triggered
 Conversational analytics API
 Copy and paste style
+Copy and save monitored charts as images
 Copy cell value in Pivot
 Create Tasks in Salesforce and compel your sales team into taking action through Qlik Application Automation
 Create Tasks in Salesforce and compel your sales team into taking action through Qlik Automate
@@ -756,6 +757,7 @@ Qlik Analytics Migration Tool now available in Qlik Cloud Government
 Qlik Analytics Migration Tool – v2.0.0 Release
 Qlik Analytics Migration Tool: November 2025 release
 Qlik Analytics mobile app supports Intune policies
+Qlik Analytics mobile application - governance and Intune integration improvements
 Qlik Anonymous Access
 Qlik Answers
 Qlik Answers agentic experience
@@ -867,6 +869,7 @@ Resource Center now available for Qlik Cloud Government
 Restore unsaved changes to Qlik Application Automation
 Restore unsaved changes to Qlik Automate
 Rich text editor for data products documentation
+Right-click menu for table columns and dimensions
 Rollover and purging of replication log files
 Run monitoring history
 Runtime evaluation option for actions
