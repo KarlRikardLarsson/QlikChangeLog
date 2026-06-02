@@ -425,6 +425,7 @@ Introducing support for projects in the Qlik Talend Cloud Data Integration conne
 Introducing the new Qlik Account profile page
 Introducing the new Qlik Answers connector for Qlik Application Automation
 Introducing the new Qlik Answers connector for Qlik Automate
+JSON editor for automation blocks
 KPI background color and new icons
 Keep track of deprecated charts
 Key Driver Analysis
@@ -517,6 +518,7 @@ Navigation bar search now supports semantic search for datasets
 Navigation enhancements for user support and learning
 Navigation menu
 Nebula extensions for Qlik Sense
+New "Full record" option for SAP HANA CDC operations
 New AWS Key Management System (KMS) connector in Qlik Application Automation
 New AWS Key Management System (KMS) connector in Qlik Automate
 New Amazon Athena ODBC connector
