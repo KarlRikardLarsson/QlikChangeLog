@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/222-data-qualities-api-data-governance/
+https://qlik.dev/changelog/223-new-event-apis-environments-spaces/
