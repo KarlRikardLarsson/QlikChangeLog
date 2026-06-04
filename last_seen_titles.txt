@@ -4,6 +4,7 @@ AI processor for transformation flows
 AI processor for transformation flows now supported in Qlik Cloud Government
 AI recommended relationships in Qlik Talend Cloud data models
 AI-based SQL Assistant
+AI-generated automation descriptions
 AI-recommended features for bias detection
 API for monitoring enhancements
 API rate limiting enforcement
