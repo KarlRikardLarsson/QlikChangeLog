@@ -1082,6 +1082,7 @@ Webhooks
 Webhooks for Qlik Talend Cloud Pipelines now available in Qlik Automate
 Webhooks in Qlik Application Automation
 Webhooks in Qlik Automate
+What's New: Enhanced Workflow Chaining in Scheduler
 What’s New: Global Task Monitoring in Qlik Cloud
 Why Qlik?
 Window script function enhancements
