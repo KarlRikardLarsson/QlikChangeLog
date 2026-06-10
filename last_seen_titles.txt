@@ -561,6 +561,7 @@ New GenAI analytics connectors
 New GenAI models supported in OpenAI analytics connector
 New Google Ads Connector
 New Google Analytics 4 Connector
+New Jira Cloud connector with OAuth 2.0 authentication
 New KPIs for catalog items
 New Like button in Insight Advisor
 New Marketo Connector, ODBC-based
