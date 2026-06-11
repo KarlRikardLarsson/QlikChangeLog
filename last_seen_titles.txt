@@ -875,6 +875,7 @@ Restore unsaved changes to Qlik Automate
 Rich text editor for data products documentation
 Right-click menu for table columns and dimensions
 Rollover and purging of replication log files
+Run history monitoring is now available in all regions
 Run monitoring history
 Runtime evaluation option for actions
 SAML based IdP supports encrypted assertions
