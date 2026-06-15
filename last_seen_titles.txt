@@ -71,6 +71,7 @@ Assign a Server-Side Encryption (SSE) header value to Amazon S3 connector
 Assign roles to users and groups
 Assistant customizations
 Assistant review page
+Attach a business glossary to your data products
 Auto-generate an analysis using Insight Advisor Analysis Types
 Auto-generated sheet thumbnails in Qlik Cloud
 AutoML Access Controls
