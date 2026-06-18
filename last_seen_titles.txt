@@ -522,6 +522,7 @@ Navigation enhancements for user support and learning
 Navigation menu
 Nebula extensions for Qlik Sense
 New "Full record" option for SAP HANA CDC operations
+New APIs - Query run history for data integration tasks
 New AWS Key Management System (KMS) connector in Qlik Application Automation
 New AWS Key Management System (KMS) connector in Qlik Automate
 New Amazon Athena ODBC connector
@@ -734,6 +735,7 @@ PDF file format support for tabular reports
 Pane for monitoring capacity consumption now supported in Qlik Cloud Government
 Parallel Load improvements
 Partial data reload
+Paste to Image and Text
 Performance improvements for the ODBC connectors
 Period over period analysis
 Period over period dashboards in Insight Advisor
@@ -741,6 +743,7 @@ Permissions to control access to Notes
 Pivot table expand and collapse options
 Pivot table exploration
 Pivot table indicators
+Pivot text style by expression
 PixelPerfect report authoring
 PixelPerfect report authoring - refresh source data binding for new measures/dimensions
 PixelPerfect template editor improvements
@@ -901,6 +904,7 @@ Scheduling alert evaluations
 Schema evolution improvements
 Scope-based access control across Qlik Cloud
 Script-only variables and drop mapping tables
+Script: New Exit Error statement
 Seamless application sharing and access requests in Qlik Cloud
 Search and replace in expression editor
 Section access apps in Insight Advisor Chat
@@ -951,6 +955,7 @@ Subscription management
 Subscription reports
 Subscription reports support multiple sheets
 Subscription to sheets - Preview button
+Subtotals in straight table
 Support LOAD and STORE of Parquet files with nested data
 Support credential separation for ODBC data sources
 Support for AWS IAM credentials authorization with Amazon Redshift
