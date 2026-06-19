@@ -778,6 +778,7 @@ Qlik Answers search enhancements
 Qlik Answers support for Google Drive and OneDrive connections
 Qlik Answers upgrade to Claude Sonnet 3.5
 Qlik Answers upgrade to Cohere Rerank 3.5
+Qlik Answers: Summarize indexed files in knowledge bases
 Qlik Application Automation
 Qlik Application Automation Templates
 Qlik Application Automation packaging shifts to third-party runs
