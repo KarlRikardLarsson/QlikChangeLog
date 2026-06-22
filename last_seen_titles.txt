@@ -332,6 +332,7 @@ Group support for notes
 Grouping bookmarks
 HTML reports for the inbox!
 HTML reports in Qlik Automate
+Header and content cell styling in Pivot
 Header and content cell styling in straight tables
 Help Resources
 Hidden sheets
@@ -736,6 +737,7 @@ Pane for monitoring capacity consumption now supported in Qlik Cloud Government
 Parallel Load improvements
 Partial data reload
 Paste to Image and Text
+Performance Evaluation — Recommendations
 Performance improvements for the ODBC connectors
 Period over period analysis
 Period over period dashboards in Insight Advisor
@@ -810,6 +812,7 @@ Qlik Cloud Government receives FedRAMP designation
 Qlik Cloud Tabular Reporting
 Qlik Cloud enabled to support HIPAA compliance
 Qlik Cloud expands to Brazil
+Qlik Cloud expands to Canada
 Qlik Cloud expands to France
 Qlik Cloud expands to India
 Qlik Cloud expands to Israel
