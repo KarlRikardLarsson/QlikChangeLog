@@ -845,6 +845,7 @@ Qlik Trust Score™ is now available at data product level
 Qlik add-in for Microsoft Excel - optimized experience for changing source app
 Qlik add-ins for Microsoft Office now available in Office 365 GCC and GCCH
 Qlik has achieved new attestations related to the Qlik Cloud Government regions
+Qlik has achieved new certifications related to Qlik Cloud
 Qlik has achieved updated or new certifications related to Qlik Cloud
 QlikView to Qlik Cloud Migration
 QlikView to Qlik Sense Converter Tool (QV2QS) now available
