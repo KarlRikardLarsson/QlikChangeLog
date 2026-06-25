@@ -780,6 +780,7 @@ Qlik Answers search enhancements
 Qlik Answers support for Google Drive and OneDrive connections
 Qlik Answers upgrade to Claude Sonnet 3.5
 Qlik Answers upgrade to Cohere Rerank 3.5
+Qlik Answers: Review agentic conversations in Answers review portal
 Qlik Answers: Summarize indexed files in knowledge bases
 Qlik Application Automation
 Qlik Application Automation Templates
@@ -1037,6 +1038,7 @@ Updated Natural Language Insights object
 Updated Salesforce connector
 Updated Teradata connector including SSO support
 Updated admin.apps scope
+Updated data table in Qlik Predict
 Updated editing experience
 Updated experiment configuration panel
 Updated support for Azure ML
