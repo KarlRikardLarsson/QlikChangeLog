@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/226-di-projects-api-task-run-endpoints/
+https://qlik.dev/changelog/229-adaptive-cards-api/
