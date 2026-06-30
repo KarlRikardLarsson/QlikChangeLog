@@ -709,6 +709,7 @@ Now in Qlik Cloud Government: Write Table in Analytics
 Now supported in Qlik Cloud Government: Large apps replace Dedicated Capacity and Expanded apps
 Now supported in Qlik Cloud Government: New script function integrates tenant attributes
 Null value representation and header settings in straight table
+OAuth Dynamic Client Registration
 OAuth impersonation tokens
 OAuth support for Databricks target connector
 OAuth web clients support private key JWT
@@ -829,6 +830,7 @@ Qlik Lineage Connectors
 Qlik Open Lakehouse
 Qlik Platform Operations connector for Application Automation updated
 Qlik Platform Operations connector for Automations updated
+Qlik Replicate customers: Your path to Qlik Open Lakehouse starts here
 Qlik Reporting Service API for Qlik Cloud Government
 Qlik Sense Enterprise SaaS - Government (US) supports Customer Managed Keys
 Qlik Sense self-service reporting
