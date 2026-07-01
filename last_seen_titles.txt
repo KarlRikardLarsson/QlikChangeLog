@@ -46,6 +46,8 @@ Administer data projects using operations
 Administrators can now control the creation of private content in Qlik Cloud
 Advanced analytics integration
 Advanced encryption with Customer Managed Keys
+Agentic tools for Qlik Predict now available in Qlik Answers
+Agentic tools for data quality, data products, and glossaries
 Alation connector support for Application Automation
 Alation connector support for Automations
 Alerting available to more users
@@ -208,6 +210,7 @@ Data products catalog
 Data products catalog now generally available
 Data products retain model when opened in Qlik Cloud Analytics
 Data products retain model when opened in Qlik Sense
+Data quality computation for Parquet datasets
 Data quality now available in pullup mode for MongoDB datasets
 Data quality validation rules
 Data quality validation rules are now available in Qlik Cloud Government
@@ -217,6 +220,7 @@ Databricks ODBC Connector has  OAuth support and improved interface
 Databricks connector gets updated authentication options
 Databricks mirroring for Qlik Open Lakehouse
 Date feature engineering
+Declarative pipelines for Qlik Talend Cloud Pipelines
 Dedicated menu entry for data product management
 Default tab for containers
 Delete File block for the GitHub connector
@@ -921,6 +925,7 @@ Secured access to data sources using SSH tunnel
 Securely access SAP data behind firewalls
 Security enhancements for Qlik Sense Mobile SaaS
 Select a branch for cross-project data sources
+Select an existing change store for your Write Table
 Select by visible points in map charts
 Select locale for app creation
 Select visible in map charts
