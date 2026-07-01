@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/229-adaptive-cards-api/
+https://qlik.dev/changelog/232-oauth-dynamic-client-registration/
