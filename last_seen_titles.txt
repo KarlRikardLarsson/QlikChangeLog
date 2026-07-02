@@ -173,6 +173,7 @@ Custom logos in apps and revised media library
 Custom name support in the Get Chart Image block in Qlik Application Automation
 Custom name support in the Get Chart Image block in Qlik Automate
 Custom parameters for Execute automation action in buttons
+Custom role support for Qlik Analytics mobile app
 Custom security roles
 Custom tooltips for KPIs
 Custom width for bar chart with continuous axis
@@ -276,6 +277,7 @@ Enhancements to Insight Advisor Chat
 Enhancements to Qlik's Customer Managed Keys (CMK)
 Enhancements to Qlik’s Customer Managed Keys (CMK)
 Enhancements to multivariate time series forecasting
+Enriched and automated classification through semantic types
 Entering database names manually instead of selecting from a list
 Enterprise access control
 Evaluate app performance for on-premise apps in your cloud tenant
@@ -297,6 +299,7 @@ Extended DDL capture support to  PostgreSQL and Microsoft SQL Server
 Extended Data Quality computation for QVDs
 Extended Data Quality computation for QVDs now supported in Qlik Cloud Government
 Extended monitoring for scheduled CDC tasks
+Extensions and themes now show Not migrated after storage cutover
 External datasets from file-based sources
 FILTERS
 Faster responses in Qlik Answers
@@ -316,6 +319,7 @@ Frictionless first-time data and insights experience
 From Qlik Sense Client-Managed
 From QlikView
 From Stitch
+Full Stitch SaaS connectors catalog now available
 General Information on Cookies
 General styling of bundled charts
 Generate ML training reports
@@ -365,6 +369,7 @@ Improved editing for master items
 Improved error messaging for time series experiments
 Improved filtering in Catalog tools
 Improved font handling
+Improved header column support for Open Lakehouse streaming tasks
 Improved interface for app reload scheduling
 Improved model filtering in Qlik AutoML
 Improved performance when downloading sheets and charts
@@ -884,6 +889,7 @@ Replace imported source databases and schemas in data projects
 Report task cycling
 Report task history
 Reporting and PDF improvements
+Request access to data products
 Required update of Qlik DataTransfer
 Resizable properties panel
 Resource Center now available for Qlik Cloud Government
@@ -996,6 +1002,7 @@ Support for registering JSON columns in pipeline projects
 Support for retrieving metadata from multiple tables in parallel
 Switching between tenants in the app
 Tab container
+Table Recipe: Data quality with semantic types
 Table Recipe: Enhanced filtering, null handling, and usability updates
 Table Recipe: Interactive playground for single-table data preparation
 Table improvement
