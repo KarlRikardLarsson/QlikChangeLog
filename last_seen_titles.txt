@@ -232,6 +232,7 @@ Deprecated chart events available
 Deprecation of bar & area chart from the visualization bundle
 Deprecation of the Share button
 Deprecation of the evaluations API
+Design, document, and test APIs in Qlik Cloud
 Developer role and API key toggle deprecated
 Developer role and API key toggle removed
 Did this page help you?
@@ -490,6 +491,7 @@ Map chart WMS improvements
 Map chart selection styling
 Master measures in expressions
 Merge command in script
+Microsoft 365 email provider now supports Cloud region selection in Qlik Cloud Government
 Microsoft Power BI Connector in Qlik Lineage Connectors now supports GCC and GCC High
 Microsoft PowerPoint for reporting  in Qlik Cloud Government
 Microsoft SharePoint as Storage Provider in Qlik Sense SaaS
@@ -836,6 +838,7 @@ Qlik Data Gateway - Direct Access updates
 Qlik Developer Changelog
 Qlik Forts end of life
 Qlik Lineage Connectors
+Qlik MCP server changes to ChatGPT configuration
 Qlik Open Lakehouse
 Qlik Platform Operations connector for Application Automation updated
 Qlik Platform Operations connector for Automations updated
@@ -1002,6 +1005,7 @@ Support for registering JSON columns in pipeline projects
 Support for retrieving metadata from multiple tables in parallel
 Switching between tenants in the app
 Tab container
+Table Recipe: Calculated column and Format number functions
 Table Recipe: Data quality with semantic types
 Table Recipe: Enhanced filtering, null handling, and usability updates
 Table Recipe: Interactive playground for single-table data preparation
