@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/232-oauth-dynamic-client-registration/
+https://qlik.dev/changelog/234-qlik-automate-connector-updates/
