@@ -303,6 +303,7 @@ Extended monitoring for scheduled CDC tasks
 Extensions and themes now show Not migrated after storage cutover
 External datasets from file-based sources
 FILTERS
+Fast Mode for Qlik Answers
 Faster responses in Qlik Answers
 Favorites in the hub
 Feature flag opens QlikView apps in IE11 plug-in
