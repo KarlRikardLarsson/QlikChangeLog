@@ -46,6 +46,7 @@ Administer data projects using operations
 Administrators can now control the creation of private content in Qlik Cloud
 Advanced analytics integration
 Advanced encryption with Customer Managed Keys
+Advanced expressions and conditional branching in validation rules
 Agentic tools for Qlik Predict now available in Qlik Answers
 Agentic tools for data quality, data products, and glossaries
 Alation connector support for Application Automation
