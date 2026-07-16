@@ -68,6 +68,7 @@ App size information added to app details
 Application Automation reports can contain sheets from different Qlik Cloud apps
 Application chaining
 Application changes for Qlik Answers
+Application script lifecycle tools for Qlik MCP server
 Apply a unique color setting for each measure in a combo chart
 April 1, 2026
 Area for line coming to combo chart
@@ -95,6 +96,7 @@ Borders and shadows
 Browsing improvements driving efficiency
 Burst reporting
 Business Glossary import sync
+Business glossary context for Qlik Answers application analysis
 Business logic fine grain controls in Insight Advisor
 Business logic improvements
 Business logic tutorial
