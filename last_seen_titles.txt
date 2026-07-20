@@ -430,6 +430,7 @@ Introducing Qlik conversational analytics in Microsoft Teams
 Introducing Shared Automations
 Introducing a new permission for private automations
 Introducing attachment support for the Microsoft Outlook connector in Qlik Automate
+Introducing change management for lake landing replication tasks
 Introducing concurrent automation runs
 Introducing keyboard shortcuts for the automation editor
 Introducing multi-select and bulk actions for blocks in the Automation editor
