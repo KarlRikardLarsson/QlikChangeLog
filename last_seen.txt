@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/237-trust-scores-api/
+https://qlik.dev/changelog/239-automation-connectors-webhook-configuration/
