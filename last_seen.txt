@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/239-automation-connectors-webhook-configuration/
+https://qlik.dev/changelog/241-admin-automations-scope-update/
