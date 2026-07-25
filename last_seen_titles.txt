@@ -776,6 +776,7 @@ Process data changes incrementally using the high watermark method
 Process type 2 dimensions and preserve change history in data marts
 Products
 Profile tile views added to catalog
+Programmatically manage your organization’s automations, without transferring ownership
 Provide app sheet usage data to customers
 Public collections
 Public monitored charts
