@@ -315,6 +315,7 @@ Field-level lineage and impact analysis
 Filter on spaces to search and browse
 Filter pane styling
 Filter valid, empty, and invalid records from dataset preview
+Flexible scheduling for automations
 Folder support for storage of prediction and experiment datasets
 Font styling with map charts
 Format specifier added for STORE of parquet files with nested data
