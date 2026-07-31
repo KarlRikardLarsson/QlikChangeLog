@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/241-admin-automations-scope-update/
+https://qlik.dev/changelog/242-qlik-automate-connector-updates/
