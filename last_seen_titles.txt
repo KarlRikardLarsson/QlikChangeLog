@@ -293,6 +293,7 @@ Expanded authentication and encryption options for Amazon S3 target
 Expanded region support for Qlik Answers
 Expanded validation capabilities for rules
 Explore the Qlik Product Recap!
+Export Qlik Answers conversations as PDFs
 Export apps from Managed Spaces
 Exporting and importing data projects
 Exporting and importing data projects now supported in Qlik Cloud Government
