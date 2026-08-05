@@ -224,6 +224,7 @@ Databricks ODBC Connector has  OAuth support and improved interface
 Databricks connector gets updated authentication options
 Databricks mirroring for Qlik Open Lakehouse
 Date feature engineering
+Date picker input type for write table editable columns
 Declarative pipelines for Qlik Talend Cloud Pipelines
 Dedicated menu entry for data product management
 Default tab for containers
