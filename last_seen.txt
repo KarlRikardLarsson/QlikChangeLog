@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/242-qlik-automate-connector-updates/
+https://qlik.dev/changelog/243-qlik-automate-connector-updates/
