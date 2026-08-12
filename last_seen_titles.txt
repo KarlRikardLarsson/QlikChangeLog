@@ -362,6 +362,7 @@ Images in straight tables
 Images in tables
 Impact analysis
 Import a project from version control in Pipelines
+Import and export semantic types
 Important change to JWT authorization capabilities with tenants
 Improve content consumption with a tenant custom home
 Improve data discovery and collaboration with Qlik Cloud Business Glossary
