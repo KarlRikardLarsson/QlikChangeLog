@@ -726,6 +726,7 @@ Notifications for Automations events
 Notifications pane
 Notifications with spaces
 Now in Qlik Cloud Government: Dynamic reload engines for all reloads
+Now in Qlik Cloud Government: Programmatically manage your organization's automations, without transferring ownership
 Now in Qlik Cloud Government: Write Table in Analytics
 Now supported in Qlik Cloud Government: Large apps replace Dedicated Capacity and Expanded apps
 Now supported in Qlik Cloud Government: New script function integrates tenant attributes
