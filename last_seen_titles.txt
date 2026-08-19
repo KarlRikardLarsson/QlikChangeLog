@@ -624,6 +624,7 @@ New algorithms for Qlik AutoML
 New and enhanced features in Qlik Talend Data Integration
 New and improved combo chart
 New app settings design
+New application themes and visualization settings
 New attributes added to the GetUserAttr function
 New authentication methods for Azure SQL database and Azure Synapse Analytics connectors
 New authentication option for Google BigQuery connector
