@@ -1119,6 +1119,7 @@ Validation rules suggestions in Qlik Talend Cloud
 Version control with GitHub
 Version control with GitHub now available in Qlik Cloud Government
 Video player
+View Direct Access gateway benchmark results in Administration activity center
 View Qlik AutoML experiments faster with new button
 View all tenants across subscriptions and manage organization-level OAuth clients
 View all tenants and manage organization-level OAuth clients
