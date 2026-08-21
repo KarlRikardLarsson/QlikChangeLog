@@ -332,6 +332,7 @@ General Information on Cookies
 General styling of bundled charts
 Generate ML training reports
 Generate dynamic prediction dataset names with time-specific variables in Qlik AutoML
+Generic OAuth redirect URIs for agentic IDEs
 Generic support for trusted OAuth clients
 GeoOperations INTABLE support for coordinate conversion
 GeoOperations analytics sources wizard
