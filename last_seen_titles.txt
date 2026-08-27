@@ -47,6 +47,7 @@ Administrators can now control the creation of private content in Qlik Cloud
 Advanced analytics integration
 Advanced encryption with Customer Managed Keys
 Advanced expressions and conditional branching in validation rules
+Agentic data stewardship
 Agentic tools for Qlik Predict now available in Qlik Answers
 Agentic tools for data quality, data products, and glossaries
 Alation connector support for Application Automation
@@ -317,6 +318,7 @@ Field-level lineage and impact analysis
 Filter on spaces to search and browse
 Filter pane styling
 Filter valid, empty, and invalid records from dataset preview
+Find the analytics you need, even when you can't remember the name
 Flexible scheduling for automations
 Folder support for storage of prediction and experiment datasets
 Font styling with map charts
@@ -437,6 +439,7 @@ Introducing a new permission for private automations
 Introducing attachment support for the Microsoft Outlook connector in Qlik Automate
 Introducing change management for lake landing replication tasks
 Introducing concurrent automation runs
+Introducing data contracts for datasets
 Introducing keyboard shortcuts for the automation editor
 Introducing multi-select and bulk actions for blocks in the Automation editor
 Introducing new capabilities for the Qlik Predict connector in Qlik Automate
@@ -845,6 +848,7 @@ Qlik Cloud expands to India
 Qlik Cloud expands to Israel
 Qlik Cloud expands to Middle East
 Qlik Cloud reporting with PowerPoint
+Qlik Cloud storage for data stewardship
 Qlik Cloud welcome tour
 Qlik Cloud®
 Qlik Data Gateway - Direct Access
