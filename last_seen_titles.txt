@@ -491,6 +491,7 @@ Machine learning with Qlik AutoML
 Machine-to-Machine (M2M) enabled OAuth clients
 Mail connector for Qlik Application Automation now supported in Qlik Cloud Government
 Mail connector for Qlik Automate now supported in Qlik Cloud Government
+Manage automations end-to-end from your AI assistant
 Manage data spaces outside of the Management Console
 Manage load scripts history in Data load editor
 Managing data assets
@@ -793,6 +794,7 @@ Public monitored charts
 Publish app from a copy of original app
 Publish sheet by drag and drop and remember expand state
 Publishing dataset and field level lineage
+QVD and Parquet files over 1GB can now be cataloged from cloud storage
 Qlik Analytics Migration Tool now available in Qlik Cloud Government
 Qlik Analytics Migration Tool – v2.0.0 Release
 Qlik Analytics Migration Tool: November 2025 release
