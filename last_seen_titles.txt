@@ -641,6 +641,7 @@ New blocks for the Stitch connector in Qlik Application Automation
 New blocks for the Stitch connector in Qlik Automate
 New bookmark and master item tools for Qlik MCP server
 New business glossary features
+New business logic AI optimization and semantic understanding for Qlik Answers
 New calculation functions
 New chart and script functions to support JSON
 New chart functions for custom app navigation
