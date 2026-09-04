@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/244-legacy-iam-system-events-deprecation/
+https://qlik.dev/changelog/245-qlik-automate-connector-updates/
