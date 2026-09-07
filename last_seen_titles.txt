@@ -484,6 +484,7 @@ List data alerts inside Qlik Sense app
 Loading data files in GeoOperations
 Loading data from the data catalog in Data load editor
 Localization of embedded analytics in ML experiments
+MCP tools for declarative pipelines
 ML Deployment UI Improvements
 Machine Learning API
 Machine learning with Qlik AutoML
