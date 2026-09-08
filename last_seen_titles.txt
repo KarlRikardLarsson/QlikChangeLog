@@ -224,6 +224,7 @@ Data window functions in engine load script
 Databricks ODBC Connector has  OAuth support and improved interface
 Databricks connector gets updated authentication options
 Databricks mirroring for Qlik Open Lakehouse
+Date expressions in validation rules
 Date feature engineering
 Date picker input type for write table editable columns
 Declarative pipelines for Qlik Talend Cloud Pipelines
