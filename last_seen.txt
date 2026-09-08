@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/245-qlik-automate-connector-updates/
+https://qlik.dev/changelog/246-mcp-tools-declarative-pipelines/
