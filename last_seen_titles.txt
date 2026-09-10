@@ -95,6 +95,7 @@ Binary loads from spaces
 Block Request Timeout Increase for Qlik Automate from 55 Seconds to 5 Minutes
 Borders and shadows
 Browsing improvements driving efficiency
+Build landing experiences with Pages (Public preview)
 Burst reporting
 Business Glossary import sync
 Business glossary context for Qlik Answers application analysis
@@ -207,6 +208,7 @@ Data Services: Cloud entitlement support
 Data catalog integration with cloud hub
 Data consumer role for spaces
 Data flow: No-code data preparation for analytics and AI
+Data load editor and Script editor: IDE-grade editing experience with dark mode (Public Preview)
 Data load editor and Script editor: Updated connections panel with faster loading and improved file browsing
 Data marketplace, Catalog, and Data quality  now supported in Qlik Cloud Government
 Data preparation in the hub
@@ -814,6 +816,7 @@ Qlik Answers search enhancements
 Qlik Answers support for Google Drive and OneDrive connections
 Qlik Answers upgrade to Claude Sonnet 3.5
 Qlik Answers upgrade to Cohere Rerank 3.5
+Qlik Answers: Index images in PDF documents
 Qlik Answers: Review agentic conversations in Answers review portal
 Qlik Answers: Summarize indexed files in knowledge bases
 Qlik Application Automation
@@ -972,6 +975,7 @@ ServiceNow connector for Qlik Application Automation now compatible with Qlik Cl
 ServiceNow connector for Qlik Automate now compatible with Qlik Cloud Government
 Set analysis
 Set expressions tutorial
+Settings reorganized in the Administration activity center
 Shapes coming to bar, combo and scatter chart, now also with areas
 Shared Automations now supported in Qlik Cloud Government and Qlik Cloud Government - DoD
 Shared data space
