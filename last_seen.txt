@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/246-mcp-tools-declarative-pipelines/
+https://qlik.dev/changelog/246-semantic-types-api/
