@@ -130,6 +130,7 @@ Chart level scripting
 Chart monitoring for Qlik Sense Mobile SaaS
 Chart monitoring now available for more visualization types
 Charts reorganization
+Choose between fast and thinking modes with assistants in Qlik Answers
 Class balancing during experiment training
 Client-Managed — Analytics
 Client-Managed — Data Integration
@@ -835,6 +836,7 @@ Qlik Cloud
 Qlik Cloud Analytics connector for Twitter is temporarily unavailable
 Qlik Cloud Analytics mini-homes
 Qlik Cloud Analytics support for end-of-life versions of Microsoft SQL Server to end
+Qlik Cloud Analytics: "When data source is updated" event is back
 Qlik Cloud Data Integration pipeline scheduling changes
 Qlik Cloud Data Integration: Expanded support for private connections
 Qlik Cloud Data Integration: Replication and lake landing support
@@ -1143,6 +1145,7 @@ View app reload log
 View data connections by space
 View visualizations as tables
 Viewing notes linked to charts
+Visual Task Chain Viewer
 Visualization improvements
 Webhooks
 Webhooks for Qlik Talend Cloud Pipelines now available in Qlik Automate
