@@ -989,6 +989,7 @@ Show all
 Show all labels in line graph
 Simplified authoring experience in Qlik Cloud: Full availability
 Simplified metadata change experience
+Smoother straight table bookmarks
 Snowflake connectivity enhancements
 Snowflake target connections in Data Integration now  support key pair authentication
 Snowpipe Streaming support
