@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/246-semantic-types-api/
+https://qlik.dev/changelog/247-rest-api-specs-zip-download/
