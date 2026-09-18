@@ -591,6 +591,7 @@ New Direct Access gateway version (1.7.6)
 New Direct Access gateway version (1.7.7)
 New Direct Access gateway version (1.7.8)
 New Direct Access gateway version (1.7.9)
+New Direct Access gateway version (1.8.0)
 New DynamoDB Connector, ODBC-based
 New GenAI analytics connectors
 New GenAI models supported in OpenAI analytics connector
@@ -926,6 +927,7 @@ Reporting and PDF improvements
 Request access to data products
 Required update of Qlik DataTransfer
 Resizable properties panel
+Resolved issues
 Resource Center now available for Qlik Cloud Government
 Restore unsaved changes to Qlik Application Automation
 Restore unsaved changes to Qlik Automate
@@ -1074,6 +1076,7 @@ Trigger data quality refresh for a data product
 Troubleshoot app objects as part of your app performance evaluation
 Troubleshoot app reloads with new error messages
 Troubleshooting data tasks not using Data Movement gateway
+Try before you commit
 Tutorial for performing time series decomposition in Qlik Sense
 Two new connectors for Qlik Application Automation now supported in Qlik Cloud Government
 Two new connectors for Qlik Automate now supported in Qlik Cloud Government
