@@ -8,6 +8,7 @@ AI-generated automation descriptions
 AI-recommended features for bias detection
 API for monitoring enhancements
 API rate limiting enforcement
+AWS PrivateLink support for Direct Access Gateway
 AYLIEN text analysis data source
 Ability to keep tasks artifacts after deletion
 About Qlik
