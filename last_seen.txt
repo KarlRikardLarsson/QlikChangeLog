@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/248-semantic-types-api-endpoints/
+https://qlik.dev/changelog/250-change-stores-events-api/
