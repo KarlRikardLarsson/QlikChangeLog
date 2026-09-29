@@ -746,6 +746,7 @@ Now in Qlik Cloud Government: Write Table in Analytics
 Now supported in Qlik Cloud Government: Large apps replace Dedicated Capacity and Expanded apps
 Now supported in Qlik Cloud Government: New script function integrates tenant attributes
 Null value representation and header settings in straight table
+OAuth Client ID Metadata Documents (CIMD)
 OAuth Dynamic Client Registration
 OAuth impersonation tokens
 OAuth support for Databricks target connector
