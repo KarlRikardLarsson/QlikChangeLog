@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/250-change-stores-events-api/
+https://qlik.dev/changelog/251-oauth-cimd/
