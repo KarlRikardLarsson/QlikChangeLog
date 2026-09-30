@@ -97,6 +97,7 @@ Block Request Timeout Increase for Qlik Automate from 55 Seconds to 5 Minutes
 Borders and shadows
 Browsing improvements driving efficiency
 Build landing experiences with Pages (Public preview)
+Build scheduled and triggered automations from your AI assistant
 Burst reporting
 Business Glossary import sync
 Business glossary context for Qlik Answers application analysis
@@ -955,6 +956,7 @@ SQL Workbench
 Save automations as templates and share with others
 Save container tab in bookmark
 Save variable values in bookmarks
+Scatter heatmap color options
 Scatter plots can display larger datasets
 Scatterplot now supports regression lines
 Scheduling alert evaluations
