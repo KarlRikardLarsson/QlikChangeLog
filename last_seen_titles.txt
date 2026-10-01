@@ -1081,6 +1081,7 @@ Troubleshoot app objects as part of your app performance evaluation
 Troubleshoot app reloads with new error messages
 Troubleshooting data tasks not using Data Movement gateway
 Try before you commit
+Try before you commit — now also in Qlik Cloud Government
 Tutorial for performing time series decomposition in Qlik Sense
 Two new connectors for Qlik Application Automation now supported in Qlik Cloud Government
 Two new connectors for Qlik Automate now supported in Qlik Cloud Government
