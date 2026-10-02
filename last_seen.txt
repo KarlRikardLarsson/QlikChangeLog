@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/251-oauth-cimd/
+https://qlik.dev/changelog/253-data-qualities-api-assign-field-types/
