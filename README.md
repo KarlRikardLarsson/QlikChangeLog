@@ -1,48 +1,48 @@
 # 🔔 Qlik Changelog Notifier
 
-This GitHub Action monitors the [Qlik Developer Changelog](https://qlik.dev/changelog/) every morning at **08:00 UTC** and sends a message to a Google Chat space if there's a new entry.
+GitHub Actions that watch Qlik's official RSS feeds and post new entries to a Google Chat space.
+
+| Watcher | Feed | Schedule | State file |
+| --- | --- | --- | --- |
+| Qlik.dev Changelog | [qlik.dev/rss.xml](https://qlik.dev/rss.xml) | 08:00 UTC | `last_seen.txt` |
+| Qlik Hub What's New | [saas-change-log.htm.rss](https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Introduction/saas-change-log.htm.rss) | 09:00 UTC | `last_seen_hub.txt` |
 
 ---
 
-## 📦 How It Works
+## How it works
 
-- Checks the [Qlik Changelog RSS feed](https://qlik.dev/rss.xml).
-- Compares the latest entry to the previously seen one.
-- If there’s a new update, sends a notification to Google Chat.
-- Stores the last seen title in `last_seen.txt`.
+- Parses each RSS feed with `feedparser`.
+- Compares entries to the stored last-seen item id (guid/link).
+- Sends new items to Google Chat (oldest → newest), including a short summary when available.
+- If the stored id disappeared from the feed (slug change / trim), re-anchors to the latest item **without** notifying, so Chat is not flooded.
+
+Shared logic lives in `rss_notifier.py`. The two `check_*.py` scripts are thin wrappers.
 
 ---
 
-## 🛠 Setup
+## Setup
 
 1. **Add a GitHub Secret**
-   - Go to your repository → Settings → Secrets → Actions.
-   - Add a new secret:
-     - **Name:** `GOOGLE_CHAT_WEBHOOK`
-     - **Value:** your Google Chat webhook URL.
+   - Repository → Settings → Secrets → Actions
+   - Name: `GOOGLE_CHAT_WEBHOOK`
+   - Value: your Google Chat webhook URL
 
-2. **Customize (Optional)**
-   - You can change the check time in `.github/workflows/qlik-changelog-check.yml` by editing the `cron` expression.
-
----
-
-## 🧪 Run a Manual Test
-
-To run the workflow now and verify everything works:
-
-- Go to **Actions** in your repo.
-- Select **Qlik Changelog Watcher** workflow.
-- Click **"Run workflow"** → Run on `main`.
-
-> It will print a success message in the logs and send a test message to your Chat space if a new changelog entry is found.
+2. **Optional**
+   - Change schedules in `.github/workflows/qlik-changelog-check.yml` and `.github/workflows/qlik-hub-changelog.yml`
 
 ---
 
-## ✅ Requirements
+## Manual test
 
-- Python 3.x (auto-installed via GitHub Actions)
-- GitHub Actions enabled
-- Google Chat webhook set as a secret
+1. Actions → pick **Qlik Changelog Watcher** or **Qlik Hub Changelog Watcher**
+2. Run workflow → Run on `main`
 
+First run with an empty state file only seeds the latest entry and does not notify.
 
+---
 
+## Requirements
+
+- Python 3.x (via GitHub Actions)
+- `feedparser` + `requests`
+- Google Chat webhook secret
