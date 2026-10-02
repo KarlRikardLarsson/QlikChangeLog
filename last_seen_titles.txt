@@ -986,6 +986,7 @@ Set analysis
 Set expressions tutorial
 Settings reorganized in the Administration activity center
 Shapes coming to bar, combo and scatter chart, now also with areas
+Share, generate, and publish API contracts in Qlik Cloud
 Shared Automations now supported in Qlik Cloud Government and Qlik Cloud Government - DoD
 Shared data space
 Sheet navigation buttons moved
