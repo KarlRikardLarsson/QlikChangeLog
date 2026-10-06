@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/253-data-qualities-api-assign-field-types/
+https://qlik.dev/changelog/254-sharing-tasks-api-task-executions/
