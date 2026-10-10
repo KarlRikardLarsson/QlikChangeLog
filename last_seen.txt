@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/254-sharing-tasks-api-task-executions/
+https://qlik.dev/changelog/256-talend-management-console-cbp-metrics-event/
