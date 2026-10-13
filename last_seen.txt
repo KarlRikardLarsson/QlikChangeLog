@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/256-talend-management-console-cbp-metrics-event/
+https://qlik.dev/changelog/257-direct-access-agents-api-connectivity-configuration-metadata/
