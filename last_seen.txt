@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/259-qlik-cli-3-4-0-update/
+https://qlik.dev/changelog/260-automations-run-ended-event-is-properties-deprecation/
