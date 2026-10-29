@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/261-data-contracts-api/
+https://qlik.dev/changelog/262-scheduling-tasks-api-reload-task-endpoints/
