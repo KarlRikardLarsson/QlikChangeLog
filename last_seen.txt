@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/262-scheduling-tasks-api-reload-task-endpoints/
+https://qlik.dev/changelog/263-webhooks-api-deprecation-core-webhooks-apimdx/
