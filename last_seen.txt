@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/263-webhooks-api-deprecation-core-webhooks-apimdx/
+https://qlik.dev/changelog/264-geo-operations-geocoding-event/
