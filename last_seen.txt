@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/266-quarterly-api-versioning-2026-11-release/
+https://qlik.dev/changelog/267-qlik-automate-connector-updates/
