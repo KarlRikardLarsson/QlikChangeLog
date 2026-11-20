@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/269-qlik-cli-4-0-0-update/
+https://qlik.dev/changelog/270-qlik-automate-connector-updates/
