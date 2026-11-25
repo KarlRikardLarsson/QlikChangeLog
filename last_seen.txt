@@ -1,1 +1,1 @@
-https://qlik.dev/changelog/271-reload-tasks-migrated-task-error-response/
+https://qlik.dev/changelog/273-oauth-token-durations/
